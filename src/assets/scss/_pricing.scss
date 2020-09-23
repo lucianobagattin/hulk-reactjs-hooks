@@ -1,0 +1,330 @@
+/* top right*/
+.ribbon {
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  position: absolute;
+  &::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    display: block;
+    border: 5px solid $primary;
+  }
+  &::after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    display: block;
+    border: 5px solid $primary;
+  }
+  span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 3px 0;
+    background-color: $primary;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: $white;
+    font-size: 12px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+.ribbon-top-right {
+  top: -10px;
+  right: -10px;
+  &::before {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    top: 0;
+    left: 0;
+  }
+  &::after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    bottom: 0;
+    right: 0;
+  }
+  span {
+    left: -24px;
+    top: 30px;
+    transform: rotate(45deg);
+  }
+}
+
+.pricing-update {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $white;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.pricing-update .group-pack {
+  flex-direction: row;
+}
+
+
+//price update
+
+.extra-cap {
+  height: 96px;
+  border: 1px solid $border-color;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  width: 25%;
+  margin-top: 0rem !important;
+  border-radius: 5px;
+  margin-right: 1rem;
+  position: relative;
+  .MuiIconButton-root {
+    opacity: 0;
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+  .MuiFormControlLabel-label {
+    font-size: 1rem;
+    color: $dark;
+    font-weight: bold;
+  }
+  label {
+    width: 100%;
+  }
+  .pack-content {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    i {
+      opacity: 0;
+      color: $white;
+      font-size: 1.8rem;
+    }
+    > div > div {
+      padding: 1rem;
+    }
+  }
+}
+.extra-cap[class*="makeStyles-activeBtn-"],.extra-cap[class*="jss"] {
+  border: 1px solid $primary;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  .pack-content {
+    background:$primary;
+    p,
+    h5 {
+      color: $white;
+    }
+    i {
+      opacity: 1;
+    }
+  }
+}
+.plan-upgrade-space{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.plan-dialog-content {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: $dark;
+    
+  }
+  i {
+    font-size: 3rem;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $gray-shade-1;
+    border-radius: 100%;
+    border: 2px solid $success;
+    color:$success;
+  }
+}
+.main-invoice .content-wrap >div {
+	font-size: 1rem;
+	margin-bottom: 0.625rem;
+	color: $text-color;
+}
+
+//pricing 2
+.post-price {
+  font-size: 20px;
+}
+
+.pricing-v1-banner {
+  background: $primary;
+  padding: 3rem;
+}
+
+.plan-label {
+  width: 120px;
+  height: 120px;
+  background: rgba($primary, 0.4) !important;
+  color: $white !important;
+  &.active {
+    background: $primary !important;
+  }
+}
+
+.plan-list {
+  width: 40%;
+}
+.feature-status {
+  text-align: center;
+  width: 20%;
+  i {
+    color: $primary;
+    opacity: 0.3;
+  }
+  &.active i {
+    opacity: 1;
+  }
+}
+.price-type {
+  width: 40%;
+  .switch {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+.pricing-wrapper {
+	table {
+		background: $white;
+		border: 1px solid $border-color;
+		td,th {
+			border-bottom: 1px solid $border-color;
+			margin: 0;
+		}
+	}
+}
+.white-container {
+  background: $white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+
+.stepper-content {
+  margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
+}
+.up-main-col {
+  max-width: 65% !important;
+  margin: 0 auto !important;
+}
+.page-500 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem 2rem 2rem;
+}
+@media (max-width: 1600px) {
+  .update-img-thumb {
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1600px) {
+  .update-img-thumb {
+    width: 260px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .update-img-thumb {
+    display: none;
+  }
+  .md-hide {
+    display: none !important;
+  }
+  .group-pack .extra-cap {
+    width: 30%;
+  }
+}
+@media (max-width: 1279px) {
+  .up-main-col {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+}
+@media (max-width: 992px) {
+  .bg-scroller {
+    width: 100%;
+  }
+  .page-500 .page-500-img {
+    width: 280px;
+    height: 280px;
+  }
+}
+@media (max-width: 960px) {
+  .page-500 {
+    .page-500-img-wrap {
+      text-align: center;
+      padding: 0 !important;
+    }
+    .page-500-content {
+      padding: 0;
+      text-align: center;
+    }
+    .page-500-content span {
+      font-size: 200px;
+      line-height: normal;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .group-pack .extra-cap {
+    width: 100%;
+    margin: 0 0 1rem 0 !important;
+  }
+  .rccs {
+    display: none;
+  }
+  .page-500 .page-500-img {
+    width: 210px;
+	 height: 210px;
+	 text-align: center;
+	 img{
+		 width:80%;
+		 
+	 }
+  }
+  .page-500-img::after {
+    display: none;
+  }
+  .page-500 .page-500-content span {
+    font-size: 120px;
+  }
+}
+.w-100 {
+  width: 100% !important;
+}
+@media (max-width: 470px){
+	.page-500 .page-500-img {
+		width: 150px;
+		height: 150px;
+		text-align: center;
+		img{
+			width:65%;			
+		}
+	}
+}

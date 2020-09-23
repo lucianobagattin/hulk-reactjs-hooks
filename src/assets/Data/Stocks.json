@@ -1,0 +1,121 @@
+[
+   {
+		"id": 1,
+		"stockName": "Dow Jones",
+		"desc": "Dow Jones Industrial Area...",
+      "total": "26,029.52",
+      "profile":"311.78",
+      "data": {
+            "labels": ["Jan", "Feb", "Mar", "Apr", "May", "June","July","Aug","Sept","Oct","Nov","Dec"],
+            "chartdata": [ 250,310,150,420,250,450,250,310,150,420,250,450],
+            "borderColor": "#0387d2",
+            "pointBackgroundColor": "#fff",
+            "height": 30,
+            "pointBorderColor": "#0387d2",
+            "borderWidth": 1,
+            "shadowColor": "rgba(0,0,0,0.4)"
+      }
+   },
+   {
+		"id": 2,
+		"stockName": "S&P 500",
+      "desc": "S&P 500",
+      "total": "2,881.77",
+      "profile": "37.78",
+      "data": {
+         "labels": ["Jan","Feb", "Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"],
+         "chartdata": [250,310,150,420,250,450,250,310,150,420,250,450],
+         "borderColor": "#0387d2",
+         "pointBackgroundColor": "#fff",
+         "height": 30,
+         "pointBorderColor": "#0387d2",
+         "borderWidth": 1,
+         "shadowColor": "rgba(0,0,0,0.4)"
+      }
+   },
+   {
+		"id": 3,
+		"stockName": "AXP",
+      "desc": "American Express Company",
+      "total": "122.55",
+      "profile": "1.83",
+      "data": {
+         "labels": ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"],
+         "chartdata": [250,310,150,420,250,450,250,310,150,420,250,450],
+         "borderColor": "#0387d2",
+         "pointBackgroundColor": "#fff",
+         "height": 30,
+         "pointBorderColor": "#0387d2",
+         "borderWidth": 1,
+         "shadowColor": "rgba(0,0,0,0.4)"
+      }
+   },
+   {
+		"id": 4,
+      "stockName": "DIS",
+      "desc": "The Walt Disney Company",
+      "total": "141.87",
+      "profile": "3.57",
+      "data": {
+         "labels": ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"],
+         "chartdata": [250,310,150,420,250,450,250,310,150,420,250,450],
+         "borderColor": "#0387d2",
+         "pointBackgroundColor": "#fff",
+         "height": 30,
+         "pointBorderColor": "#0387d2",
+         "borderWidth": 1,
+         "shadowColor": "rgba(0,0,0,0.4)"
+      }
+   },
+   {
+		"id": 5,
+      "stockName": "GE",
+      "desc": "General Electric Company",
+      "total": "9.57",
+      "profile": "0.09",
+      "data": {
+         "labels": ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"],
+         "chartdata": [250,310,150,420,250, 450, 250, 310,150, 420, 250, 450],
+         "borderColor": "#0387d2",
+         "pointBackgroundColor": "#fff",
+         "height": 30,
+         "pointBorderColor": "#0387d2",
+         "borderWidth": 1,
+         "shadowColor": "rgba(0,0,0,0.4)"
+      }
+   },
+   {
+		"id": 6,
+      "stockName": "NIKE",
+      "desc": "NIKE, Inc.",
+      "total": "81.30",
+      "profile": "2.33",
+      "data": {
+         "labels": ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"],
+         "chartdata": [250,310,150,420,250,450,250,310,150,420,250,450],
+         "borderColor": "#0387d2",
+         "pointBackgroundColor": "#fff",
+         "height": 30,
+         "pointBorderColor": "#0387d2",
+         "borderWidth": 1,
+         "shadowColor": "rgba(0,0,0,0.4)"
+      }
+   },
+   {
+		"id": 7,
+      "stockName": "SBUX",
+      "desc": "Starbucks Corporation",
+      "total": "95.34",
+      "profile": "1.64",
+      "data": {
+         "labels": ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sept","Oct","Nov","Dec"],
+         "chartdata": [250,310,150,420,250,450,250,310,150,420,250,450],
+         "borderColor": "#0387d2",
+         "pointBackgroundColor": "#fff",
+         "height": 30,
+         "pointBorderColor": "#0387d2",
+         "borderWidth": 1,
+         "shadowColor": "rgba(0,0,0,0.4)"
+      }
+   }
+]

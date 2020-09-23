@@ -1,0 +1,60 @@
+{
+	"data":[
+      {
+         "name": "Total price after free period",
+         "basic": ["$ 300","$ 49"],
+         "standard": ["$ 350","$ 69"],
+         "premium":["$ 850","$ 99"],
+         "icons": false
+      },
+      {
+         "name": "Donec facilisis",
+         "basic": "fas fa-times",
+         "standard": "fas fa-times",
+         "premium":"fas fa-check",
+         "icons": true
+      },
+      {
+         "name": "Cras ut est arcu",
+         "basic": "fas fa-times",
+         "standard": "fas fa-times",
+         "premium":"fas fa-check",
+         "icons": true
+      },
+      {
+         "name": "Donec maximus orc",
+         "basic": 1,
+         "standard": 2,
+         "premium":4,
+         "icons": false
+      },
+      {
+         "name": "Nunc nec mauris sit amet",
+         "basic": "fas fa-check",
+         "standard": "fas fa-check",
+         "premium":"fas fa-check",
+         "icons": true
+      },
+      {
+         "name": "Integer auctor est eget",
+         "basic": "fas fa-check",
+         "standard": "fas fa-check",
+         "premium":"fas fa-check",
+         "icons": true
+      },
+      {
+         "name": "Nam pellentesque mauris",
+         "basic": "fas fa-check",
+         "standard": "fas fa-check",
+         "premium":"fas fa-check",
+         "icons": true
+      },
+      {
+         "name": "Curabitur tincidunt ligula",
+         "basic": "fas fa-check",
+         "standard": "fas fa-check",
+         "premium":"fas fa-check",
+         "icons": true
+      }
+   ]
+}

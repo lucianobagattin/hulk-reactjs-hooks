@@ -1,0 +1,154 @@
+{
+	"data":[
+      {
+         "id": 1,
+         "image": "user-1.jpg",
+         "name": "Jerry Ried",
+         "address": "Liberty",
+			"designation": "Web Developer",
+			"email":"jerry@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "recently_added"
+      },
+      {
+         "id": 2,
+         "image": "user-2.jpg",
+         "name": "Gustavo Stevenson",
+         "address": "Tampa",
+         "designation": "Web Developer",
+			"email":"gustavo@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "recently_added"
+      },
+      {
+         "id": 3,
+         "image": "user-3.jpg",
+         "name": "John Shrum",
+         "address": "San Francisco",
+         "designation": "Web Developer",
+			"email":"john@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "recently_added"
+      },
+      {
+         "id": 4,
+         "image": "user-4.jpg",
+         "name": "Julie Reno",
+         "address": "Harlingen",
+         "designation": "Web Developer",
+			"email":"julie@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "favourite"
+      },
+      {
+         "id": 5,
+         "image": "user-5.jpg",
+         "name": "Nancy Beck",
+         "address": "Chattanooga",
+         "designation": "Web Developer",
+			"email":"nancy@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "favourite"
+      },
+      {
+         "id": 6,
+         "image": "user-6.jpg",
+         "name": "Travis Klotz",
+         "address": "Hickory Hills",
+         "designation": "Web Developer",
+			"email":"travis@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "favourite"
+      },
+      {
+         "id": 7,
+         "image": "user-1.jpg",
+         "name": "Anna Estes",
+         "address": "Waipahu",
+         "designation": "Web Developer",
+			"email":"anna@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "favourite"
+      },
+      {
+         "id": 8,
+         "image": "user-2.jpg",
+         "name": "David Jones",
+         "address": "Kissimmee",
+         "designation": "Web Developer",
+			"email":"david@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "favourite"
+      },
+      {
+         "id": 9,
+         "image": "user-3.jpg",
+         "name": "Hayden Bower",
+         "address": "Carthage",
+         "designation": "Web Developer",
+			"email":"hayden@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "favourite"
+      },
+      {
+         "id": 10,
+         "image": "user-4.jpg",
+         "name": "Cathy Hagood",
+         "address": "Abilene",
+         "designation": "Web Developer",
+			"email":"cathy@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "recently_added"
+      },
+      {
+         "id": 11,
+         "image": "user-5.jpg",
+         "name": "Anna Estes",
+         "address": "Waipahu",
+         "designation": "Web Developer",
+			"email":"anna@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "recently_added"
+      },
+      {
+         "id": 12,
+         "image": "user-6.jpg",
+         "name": "Mary Perez",
+         "address": "Alhambra",
+         "designation": "Web Developer",
+			"email":"mary@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "recently_added"
+      },
+      {
+         "id": 13,
+         "image": "user-1.jpg",
+         "name": "Jerry Ried",
+         "address": "Liberty",
+         "designation": "Web Developer",
+			"email":"jerry@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "recently_added"
+      },
+      {
+         "id": 14,
+         "image": "user-2.jpg",
+         "name": "Gustavo Stevenson",
+         "address": "Tampa",
+         "designation": "Web Developer",
+			"email":"gustavo@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "recently_added"
+      },
+      {
+         "id": 15,
+         "image": "user-3.jpg",
+         "name": "John Shrum",
+         "address": "San Francisco",
+         "designation": "Web Developer",
+			"email":"john@mail.com",
+			"phoneNo":"+91 (987) 654-3210",
+         "type": "favourite"
+      }
+   ]
+}

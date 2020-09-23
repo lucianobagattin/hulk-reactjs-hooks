@@ -1,0 +1,116 @@
+[
+	{
+		"menu_title": "sidebar.dashboard",
+		"path": "/app/dashboard/",
+		"icon": "dashboard",
+		"isMenuOpen": false,
+		"child_routes": [
+			{
+				"path": "/app/dashboard/dashboard1",
+				"menu_title": "sidebar.dashboard1",
+				"icon": "equalizer"
+			},
+			{
+				"path": "/app/dashboard/dashboard2",
+				"menu_title": "sidebar.dashboard2",
+				"icon": "dashboard"
+			},
+			{
+				"path": "/app/dashboard/dashboard3",
+				"menu_title": "sidebar.dashboard3",
+				"icon": "ballot"
+			}
+		]
+	},
+	{
+		"path": "/app/ecommerce/shop",
+		"menu_title": "sidebar.shop",
+		"icon": "shopping_basket",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"path": "/app/ecommerce/product-detail/7",
+		"menu_title": "sidebar.productdetails",
+		"icon": "details",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"path": "/app/ecommerce/cart",
+		"menu_title": "sidebar.cart",
+		"icon": "shopping_cart",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"path": "/app/ecommerce/checkout",
+		"menu_title": "sidebar.checkout",
+		"icon": "turned_in",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"path": "/app/ecommerce/invoice",
+		"menu_title": "sidebar.invoice",
+		"icon": "receipt",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"path": "/app/ecommerce/signin",
+		"menu_title": "sidebar.signIn",
+		"icon": "vpn_key",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"menu_title": "sidebar.chat",
+		"path": "/app/chat",
+		"icon": "question_answer",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"menu_title": "sidebar.email",
+		"path": "/app/email",
+		"icon": "mail_outline",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"menu_title": "sidebar.calendar",
+		"path": "/app/calendar",
+		"icon": "calendar_today",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"path": "/app/usermanagement/contact-grid",
+		"menu_title": "sidebar.contactGrid",
+		"icon": "contacts",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"path": "/app/pages/profile/standard",
+		"menu_title": "sidebar.standard",
+		"icon": "perm_identity",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"path": "/app/pages/profile/modern",
+		"menu_title": "sidebar.modern",
+		"icon": "ballot",
+		"isMenuOpen": false,
+		"child_routes": null
+	},
+	{
+		"path": "/app/pages/faq",
+		"menu_title": "sidebar.faq",
+		"icon": "contact_support",
+		"isMenuOpen": false,
+		"child_routes": null
+	}
+]

@@ -1,0 +1,697 @@
+{
+	"data": [
+		{
+			"menu_title": "sidebar.dashboard",
+			"path": "/app/dashboard/",
+			"icon": "dashboard",
+			"category":"general",
+         "isMenuOpen": false,
+         "menu":"dashboard",
+         "fullPageMenu": false,
+			"desc": true,
+			"content": "",
+			"child_routes": [
+				{
+					"path": "/app/dashboard/dashboard1",
+					"menu_title": "sidebar.dashboard1",
+               "icon": "equalizer",
+					"fullPageMenu": false,
+					"isMenuOpen": false,
+					"third_child_routes": null
+				},
+				{
+					"path": "/app/dashboard/dashboard2",
+					"menu_title": "sidebar.dashboard2",
+               "icon": "dashboard",
+               "fullPageMenu": false,
+               "isMenuOpen": false,
+					"third_child_routes": null
+            },
+            {
+               "path": "/app/dashboard/dashboard3",
+               "menu_title": "sidebar.dashboard3",
+               "icon": "ballot",
+               "fullPageMenu": false,
+               "isMenuOpen": false,
+               "third_child_routes": null
+            }
+			]
+		},
+		{
+         "menu_title": "sidebar.pages",
+         "path": "/app/pages/",
+			"icon": "insert_drive_file",
+			"category":"general",
+         "isMenuOpen":false,
+         "menu": "pages",
+         "fullPageMenu": false,
+			"desc":true,
+			"content":"",
+         "child_routes": [
+				{
+               "path": "/app/pages/profile/",
+               "menu_title": "sidebar.profile",
+					"icon": "assessment",
+               "isMenuOpen":false,
+               "menu": "profile",
+         		"fullPageMenu": false,
+					"third_child_routes":[
+						{
+							"path": "/app/pages/profile/standard",
+							"menu_title": "sidebar.standard",
+							"icon": "perm_identity",
+							"fourth_child_routes": null
+						},
+						{
+							"path": "/app/pages/profile/modern",
+							"menu_title": "sidebar.modern",
+							"icon": "ballot",
+							"fourth_child_routes": null
+						}
+					]
+				},
+				{
+               "path": "/app/pages/stepper/",
+               "menu_title": "sidebar.stepper",
+					"icon": "ballot",
+               "isMenuOpen":false,
+               "menu": "stepper",
+         		"fullPageMenu": false,
+					"third_child_routes":[
+						{
+							"path": "/app/pages/stepper/horizontal-stepper",
+							"menu_title": "sidebar.horizontalStepper",
+							"icon": "format_list_numbered",
+							"fourth_child_routes": null
+						},
+						{
+							"path": "/app/pages/stepper/vertical-stepper",
+							"menu_title": "sidebar.verticalStepper",
+							"icon": "format_list_numbered",
+							"fourth_child_routes": null	
+						}
+					]
+				},
+				{
+               "path": "/app/pages/pricing/",
+               "menu_title": "sidebar.pricing",
+					"icon": "remove",
+               "isMenuOpen":false,
+               "menu": "Pricing",
+         		"fullPageMenu": false,
+					"third_child_routes":[
+						{
+							"path": "/app/pages/pricing/style1",
+							"menu_title": "sidebar.style1",
+							"icon": "monetization_on",
+							"fourth_child_routes":null
+						},
+						{
+							"path": "/app/pages/pricing/style2",
+							"menu_title": "sidebar.style2",
+							"icon": "monetization_on",
+							"fourth_child_routes":null
+						},
+						{
+							"path": "/app/pages/pricing/pricing-upgrade",
+							"menu_title": "sidebar.pricingUpgrade",
+							"icon": "beenhere",
+							"fourth_child_routes":null
+						}
+					]
+            },
+				{
+               "path": "/app/pages/timeline/",
+               "menu_title": "sidebar.timeline",
+					"icon": "remove",
+               "isMenuOpen":false,
+               "menu": "timeline",
+         		"fullPageMenu": false,
+					"third_child_routes":[
+						{
+							"path": "/app/pages/timeline/vertical-timeline",
+							"menu_title": "sidebar.verticalTimeline",
+							"icon": "format_list_bulleted",
+							"fourth_child_routes":null
+						},
+						{
+							"path": "/app/pages/timeline/horizontal-timeline",
+							"menu_title": "sidebar.horizontalTimeline",
+							"icon": "format_list_bulleted",
+							"fourth_child_routes": null
+							
+						}
+					]
+				},
+				{
+               "path": "/app/pages/contact-grid",
+               "menu_title": "sidebar.contactGrid",
+               "icon": "contacts",
+               "isMenuOpen": false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+               "path": "/app/pages/faq",
+               "menu_title": "sidebar.faq",
+               "icon": "contact_support",
+               "isMenuOpen": false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+               "path": "/app/pages/payment",
+               "menu_title": "sidebar.payment",
+               "icon": "contact_support",
+               "isMenuOpen": false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+               "path": "/app/pages/signature-pad",
+               "menu_title": "sidebar.signaturePad",
+               "icon": "contact_support",
+               "isMenuOpen": false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				}
+         ]
+		},
+		{
+			"menu_title": "sidebar.fullpagemenu",
+			"path": "/app/fullpagemenu",
+			"icon": "label",
+			"category":"general",
+         "menu":"fullpagemenu",
+			"isMenuOpen":true,
+			"isMultiple":false,
+			"fullPageMenu": true,
+			"desc":true,
+			"content":"Lorem ipsum dolor sit amet",
+			"child_routes": [
+				{
+					"path": "/app/dashboard/dashboard1",
+					"menu_title": "sidebar.dashboard1",
+					"icon": "equalizer",
+					"f_desc":"View dashboard and Widgets replated to web analytics",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/dashboard/dashboard2",
+					"menu_title": "sidebar.dashboard2",
+					"icon": "dashboard",
+					"f_desc":"Checkout the SAAS dashboard and Widgets like chat and Task List",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/dashboard/dashboard3",
+					"menu_title": "sidebar.dashboard3",
+					"icon": "ballot",
+					"f_desc":"Manage your eCommerce dashboard and check out other activities",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/chat",
+					"menu_title": "sidebar.chat",
+					"icon": "question_answer",
+					"f_desc":"Get connected with your friends and clients",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/email",
+					"menu_title": "sidebar.email",
+					"icon": "mail_outline",
+					"f_desc":"Check out your daily emails with our integrated email component",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/calendar",
+					"menu_title": "sidebar.calendar",
+					"icon": "calendar_today",
+					"f_desc":"Manage your day to day schedule for staff and clients",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/pages/profile/standard",
+					"menu_title": "sidebar.profile",
+					"icon": "perm_identity",
+					"f_desc":"Check your standard profile page with useful widgets",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/pages/stepper/horizontal-stepper",
+					"menu_title": "sidebar.stepper",
+					"icon": "shopping_cart",
+					"f_desc":"Go and check the horizontal stepper form design",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/tables/custom-table",
+					"menu_title": "sidebar.customTable",
+					"icon": "table_chart",
+					"f_desc":"Check the new table for preview basic info for every row",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/user-settings",
+					"menu_title": "sidebar.userSettings",
+					"icon": "perm_data_setting",
+					"f_desc":"View and manage your account information, email and more",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/blog/blog-grid",
+					"menu_title": "sidebar.blogGrid",
+					"icon": "web",
+					"f_desc":"Check, Read and edit and write a new blog post from here.",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/ecommerce/shop",
+					"menu_title": "sidebar.shop",
+					"icon": "shopping_cart",
+					"f_desc":"Shop the new and existing product and also manage all",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/pages/signature-pad",
+					"menu_title": "sidebar.signaturePad",
+					"icon": "contact_support",
+					"f_desc":"Edit forms with the digital signature and save or send them as pdf",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/pages/payment",
+               "menu_title": "sidebar.payment",
+					"icon": "access_time",
+					"f_desc":"Enter Payments keys to enable payment gateways in the theme",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				},
+				{
+					"path": "/signup",
+               "menu_title": "sidebar.signUp",
+               "icon": "access_time",
+					"f_desc":"Register your account with us for more info. ",
+               "isMenuOpen":false,
+               "fullPageMenu": false,
+					"third_child_routes":null
+				}
+			]
+		},
+		{
+			"menu_title": "sidebar.ecommerce",
+			"path": "/app/ecommerce/",
+			"icon": "shopping_cart",
+			"category":"general",
+         "isMenuOpen":false,
+         "menu":"ecommerce",
+         "fullPageMenu": false,
+			"desc":true,
+			"content":"",
+			"child_routes": [
+				{
+					"path": "/app/ecommerce/shop",
+					"menu_title": "sidebar.shop",
+               "icon": "shopping_basket",
+               "fullPageMenu": false,
+               "isMenuOpen":false,               
+					"third_child_routes": null
+				},
+				{
+					"path": "/app/ecommerce/product-detail/7",
+					"menu_title": "sidebar.productdetails",
+					"icon": "details",
+					"fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/ecommerce/cart",
+					"menu_title": "sidebar.cart",
+					"icon": "shopping_cart",
+					"fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/ecommerce/checkout",
+					"menu_title": "sidebar.checkout",
+					"icon": "turned_in",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/ecommerce/invoice",
+					"menu_title": "sidebar.invoice",
+					"icon": "receipt",
+					"fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+				},
+				{
+					"path": "/app/ecommerce/signin",
+					"menu_title": "sidebar.signIn",
+					"icon": "vpn_key",
+					"fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+				}
+			]
+		},
+		{
+         "menu_title": "sidebar.tables",
+         "path": "/app/tables/",
+         "icon": "table_chart",
+			"category":"components",
+         "isMenuOpen": false,
+         "menu": "tables",
+         "fullPageMenu": false,
+         "desc": true,
+         "content": "",
+         "child_routes": [
+            {
+               "path": "/app/tables/basic-table",
+               "menu_title": "sidebar.basicTable",
+               "icon": "table_chart",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+               "third_child_routes": null
+            },
+            {
+               "path": "/app/tables/search-table",
+               "menu_title": "sidebar.searchTable",
+               "icon": "table_chart",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+               "third_child_routes": null
+            },
+            {
+               "path": "/app/tables/ag-grid",
+               "menu_title": "sidebar.agGrid",
+               "icon": "table_chart",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+               "third_child_routes": null
+            },
+            {
+               "path": "/app/tables/custom-table",
+               "menu_title": "sidebar.customTable",
+               "icon": "table_chart",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+               "third_child_routes": null
+            }
+         ]
+      },
+		{
+         "menu_title": "sidebar.userSettings",
+         "path": "/app/user-settings",
+         "icon": "perm_data_setting",
+			"category":"applications",
+         "menu": "user-settings",
+         "fullPageMenu": false,
+			"isMenuOpen":false,
+			"desc":true,
+			"content":"Organised Your Staff And Users",
+         "child_routes": null
+		},
+		{
+			"menu_title": "sidebar.chat",
+			"path": "/app/chat",
+			"icon": "question_answer",
+			"category":"modules",
+         "isMenuOpen":false,
+         "menu":"chat",
+         "fullPageMenu": false,
+			"desc":true,
+			"content":"Get connected with your friends and clients",
+			"child_routes": null
+		},
+		{
+			"menu_title": "sidebar.email",
+			"path": "/app/email",
+			"icon": "mail_outline",
+			"category":"modules",
+         "isMenuOpen":false,
+         "menu":"email",
+         "fullPageMenu": false,
+			"desc":true,
+			"content":"Check out your daily emails with our integrated email component",
+			"child_routes": null
+		},
+		{
+			"menu_title": "sidebar.calendar",
+			"path": "/app/calendar",
+         "icon": "calendar_today",
+			"category":"modules",
+         "menu":"calendar",
+         "fullPageMenu": false,
+			"isMenuOpen":false,
+			"desc":true,
+			"content":"Manage your day to day schedule for staff and clients",
+			"child_routes": null
+		},
+		{
+			"menu_title": "sidebar.videoPlayer",
+			"path": "/app/video-player",
+			"icon": "play_circle_outline",
+			"category":"modules",
+         "isMenuOpen":false,
+         "menu":"video-player",
+         "fullPageMenu": false,
+			"desc":true,
+			"content":"Show your visual content",
+			"child_routes": null
+		},
+		{
+         "menu_title": "sidebar.blog",
+         "path": "/app/blog/",
+			"icon": "layers",
+			"category":"applications",
+         "isMenuOpen":false,
+         "menu": "blog",
+         "fullPageMenu": false,
+			"desc":true,
+			"content":"",
+         "child_routes": [
+            {
+               "path": "/app/blog/blog-grid",
+               "menu_title": "sidebar.blogGrid",
+               "icon": "web",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+				},
+				{
+               "path": "/app/blog/blog-detail/1",
+               "menu_title": "sidebar.blogDetails",
+               "icon": "details",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+            }
+         ]
+		},
+		{
+         "menu_title": "sidebar.uiComponents",
+         "path": "/app/uicomponents/",
+			"icon": "apps",
+			"category":"components",
+         "isMenuOpen":false,
+         "menu": "uicomponents",
+         "fullPageMenu": false,
+			"desc":true,
+			"content":"",
+         "child_routes": [
+            {
+               "path": "/app/uicomponents/appbar",
+               "menu_title": "sidebar.appBar",
+               "icon": "crop_square",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+            },
+            {
+               "path": "/app/uicomponents/avatars",
+               "menu_title": "sidebar.avatars",
+               "icon": "crop_square",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+            },
+            {
+               "path": "/app/uicomponents/buttons",
+               "menu_title": "sidebar.buttons",
+               "icon": "crop_square",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+            },
+            {
+               "path": "/app/uicomponents/bottom-navigations",
+               "menu_title": "sidebar.bottomNavigations",
+               "icon": "crop_square",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+            },
+            {
+               "path": "/app/uicomponents/chip",
+               "menu_title": "sidebar.chip",
+               "icon": "crop_square",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+            },
+            {
+               "path": "/app/uicomponents/lists",
+               "menu_title": "sidebar.lists",
+               "icon": "crop_square",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+            },
+            {
+               "path": "/app/uicomponents/modals",
+               "menu_title": "sidebar.modals",
+               "icon": "crop_square",
+               "fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null
+            }
+         ]
+		},
+		{
+			"menu_title": "sidebar.sessions",
+         "path": "javascript:void(0)",
+			"icon": "access_time",
+			"category":"general",
+         "isMenuOpen":false,
+         "menu": "sessions",
+         "fullPageMenu": false,
+			"desc":true,
+			"content": "",
+         "child_routes": [
+				{
+               "path": "javascript:void(0)",
+               "menu_title": "sidebar.layout1",
+					"icon": "remove",
+               "isMenuOpen":false,
+               "menu": "layout1",
+         		"fullPageMenu": false,
+					"third_child_routes":[
+						{
+							"path": "/signin",
+							"menu_title": "sidebar.signIn",
+							"icon": "access_time",
+							"fourth_child_routes":null
+						},
+						{
+							"path": "/signup",
+               		"menu_title": "sidebar.signUp",
+							"icon": "access_time",
+							"fourth_child_routes":null
+						},
+						{
+							"path": "/forgot-password",
+							"menu_title": "sidebar.forgotPassword",
+							"icon": "access_time",
+							"fourth_child_routes":null
+						}
+					]
+				},
+				{
+               "path": "javascript:void(0)",
+               "menu_title": "sidebar.layout2",
+					"icon": "remove",
+               "isMenuOpen":false,
+               "menu": "layout2",
+         		"fullPageMenu": false,
+					"third_child_routes":[
+						{
+							"path": "/login",
+							"menu_title": "sidebar.signIn",
+							"icon": "access_time",
+							"fourth_child_routes":null
+						},
+						{
+							"path": "/register",
+               		"menu_title": "sidebar.signUp",
+							"icon": "access_time",
+							"fourth_child_routes":null
+						},
+						{
+							"path": "/forgot-password2",
+							"menu_title": "sidebar.forgotPassword",
+							"icon": "access_time",
+							"fourth_child_routes":null
+						}
+					]
+            }
+         ]
+		},
+		{
+			"menu_title": "sidebar.errorPages",
+			"path": "javascript:void(0)",
+			"icon": "error_outline",
+			"category":"general",
+         "isMenuOpen":false,
+         "menu": "errorPages",
+         "fullPageMenu": false,
+			"desc":true,
+			"content":"",
+			"child_routes": [
+				{	
+			
+					"menu_title": "sidebar.fourzerofour",		
+					"path": "/error/404",
+					"child_routes": null,
+					"icon": "policy",
+					"fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null,
+					"exact": true
+				},
+				{
+					"menu_title": "sidebar.fivezerozero",
+					"path": "/error/500",
+					"child_routes": null,
+					"icon": "policy",
+					"fullPageMenu": false,
+               "isMenuOpen":false, 
+					"third_child_routes":null,
+					"exact": true
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,118 @@
+/* Responsive Layout */
+@media (max-width: 1450px){
+	.contact-grid-item {
+		width: calc(25% - 24px);
+  	}
+}
+@media (max-width: 1199px){
+	.h-stepper-body{
+		display: none;
+	}
+}
+@media (max-width: 959px) {
+	html{
+		font-size: 15px ;
+	}
+	.rbc-event{
+		padding: 4px;
+	}
+	.rbc-ellipsis, .rbc-event-label, .rbc-row-segment .rbc-event-content, .rbc-show-more{
+		line-height: 1.2;
+	}
+	.rbc-month-row {
+		min-height: 110px;
+	}
+	.contact-grid-item {
+		width: calc(33.3333% - 24px);
+	}
+	.plan-label {
+		width: auto;
+		height: auto;
+	} 
+	.welcome-note {
+		.welcome-note-list {
+		  padding: 0.3125rem 0;
+		}
+	}
+	.custom-table-wrap{
+		margin-bottom: 24px;
+	} 
+}
+@media (max-width: 767px){
+	.rbc-toolbar {
+		flex-direction: column;
+		align-items: start;
+ 	}
+  	.rbc-toolbar span {
+		margin: 5px 0;
+	}
+	.contact-grid-item {
+		width: calc(50% - 24px);
+  	}
+}
+@media (max-width: 599px) {
+	html{
+		font-size: 14px ;
+	}
+	.rbc-month-row {
+		min-height: 70px;
+	}
+	.rbc-calendar .rbc-toolbar button {
+		padding: .375rem;
+		font-size: 12px !important;
+	}
+	.confirmation-dialog,.contact-dialog{
+		>div:nth-child(3){
+			>div{
+				margin: 16px;
+			}
+		}
+	}
+	.section-space,
+	.page-space {
+		padding-bottom: 4rem;
+		padding-top: 4rem;
+	}
+	.faq-banner {
+		padding: 4rem 1.5rem;
+	}
+	.title-contact-block{
+		button {
+			margin-bottom: 15px;
+		}
+	}
+	.search-table-wrap, .custom-table-wrap{
+		.MuiToolbar-root{
+			display: block;
+			padding-top: 10px;
+			.MuiFormControl-root{
+				padding-left: 0;
+				width:100%;
+			}
+		}
+	}
+	.custom-table-wrap{
+		.MuiToolbar-root{
+			min-height: 85px;
+		}
+	}
+}
+@media (max-width: 500px){
+	.contact-grid-item {
+		width: 100%;
+	}
+	.quick-links li {
+		width: 100%;
+		margin: 0.3125rem 0;
+		&:nth-child(even) {
+			padding-left: 0;
+		}
+	}	
+}
+@media (max-width: 375px){
+	.checkout-tabs .MuiTabs-flexContainer > button{
+		width: auto;
+		max-width: 100%;
+		padding: 0 8px;
+	}
+}

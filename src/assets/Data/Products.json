@@ -1,0 +1,707 @@
+{
+	"data": [
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Laptap",
+			"category_type": "accessories",
+			"color": "Black",
+			"desc": "Adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur perferendis repudiandae adipisci labore, impedit beatae! Lorem ipsum dolor sit amet consectetur",
+			"discount_price": 88.0,
+			"features": [
+				"Dell/Mac/Acer Laptop Bag",
+				"Pure Leather",
+				"20 Kg Capacity"
+			],
+			"image": "accessroies/a-1-a.jpg",
+			"image_gallery": [
+				"accessroies/a-1-a.jpg",
+				"accessroies/a-1-b.jpg",
+				"accessroies/a-1-c.jpg",
+				"accessroies/a-1-d.jpg"
+			],
+			"name": "Laptop Backpack",
+			"productID": 16,
+			"popular": true,
+			"price": 92.75,
+			"product_code": "#EM1215",
+			"quantity": 1,
+			"rating": 4,
+			"status": 0,
+			"tags": [
+				"Black",
+				"Laptop",
+				"Bags"
+			],
+			"type": "accessories"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Belts",
+			"category_type": "accessories",
+			"color": "Black",
+			"desc": "Uorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 44.0,
+			"features": [
+				"Pure Leather",
+				"Water Proof",
+				"Steel Buckle"
+			],
+			"image": "accessroies/a-2-a.jpg",
+			"image_gallery": [
+				"accessroies/a-2-a.jpg",
+				"accessroies/a-2-b.jpg",
+				"accessroies/a-2-c.jpg",
+				"accessroies/a-2-d.jpg"
+			],
+			"name": "Men Belts",
+			"productID": 17,
+			"popular": false,
+			"price": 38.31,
+			"product_code": "#EM1216",
+			"quantity": 1,
+			"rating": 4,
+			"status": 0,
+			"tags": [
+				"Tan",
+				"Belts",
+				"Leather"
+			],
+			"type": "accessories"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Jewellery",
+			"category_type": "accessories",
+			"color": "Black",
+			"desc": "Ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 78.0,
+			"features": [
+				"Slim Fit",
+				"Pure Steel",
+				"Free Shipping And Delivery In 7 Days"
+			],
+			"image": "accessroies/a-3-a.jpg",
+			"image_gallery": [
+				"accessroies/a-3-a.jpg",
+				"accessroies/a-3-b.jpg",
+				"accessroies/a-3-c.jpg",
+				"accessroies/a-3-d.jpg"
+			],
+			"name": "Steel Chain",
+			"productID": 18,
+			"popular": false,
+			"price": 56.75,
+			"product_code": "#EM1217",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Chain",
+				"Long Chain",
+				"Accessories"
+			],
+			"type": "accessories"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Purse",
+			"category_type": "accessories",
+			"color": "Brown",
+			"desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 14.0,
+			"features": [
+				"Slim Designed",
+				"Pure Leather",
+				"Credit/Debit Cards Pockets"
+			],
+			"image": "accessroies/a-4-a.jpg",
+			"image_gallery": [
+				"accessroies/a-4-a.jpg",
+				"accessroies/a-4-b.jpg",
+				"accessroies/a-4-c.jpg",
+				"accessroies/a-4-d.jpg"
+			],
+			"name": "Men Purse",
+			"productID": 19,
+			"popular": false,
+			"price": 15.75,
+			"product_code": "#EM1218",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Tan",
+				"Men",
+				"Money"
+			],
+			"type": "accessories"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Goggles",
+			"category_type": "accessories",
+			"color": "Black",
+			"desc": "Iit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur",
+			"discount_price": 14.0,
+			"features": [
+				"Smooth Finishing",
+				"Soft",
+				"Free Shipping and delivery in 4 Days"
+			],
+			"image": "accessroies/a-5-a.jpg",
+			"image_gallery": [
+				"accessroies/a-5-a.jpg",
+				"accessroies/a-5-b.jpg",
+				"accessroies/a-5-c.jpg",
+				"accessroies/a-5-d.jpg"
+			],
+			"name": "Summer Goggles",
+			"productID": 20,
+			"popular": true,
+			"price": 15.75,
+			"product_code": "#EM1219",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Black",
+				"Men",
+				"Shape"
+			],
+			"type": "accessories"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Headphone",
+			"category_type": "gadgets",
+			"color": "Black",
+			"desc": "Ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 90.0,
+			"features": [
+				"Bass Boosted ",
+				"Start/Pause Button ",
+				"Skype/VproductIDeo Call Compatible"
+			],
+			"image": "gadgets/g-1-a.jpg",
+			"image_gallery": [
+				"gadgets/g-1-a.jpg",
+				"gadgets/g-1-b.jpg",
+				"gadgets/g-1-c.jpg",
+				"gadgets/g-1-d.jpg"
+			],
+			"name": "Wired Headphone",
+			"productID": 11,
+			"popular": false,
+			"price": 125.75,
+			"product_code": "#EM1209",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Headphone",
+				"Gadgets",
+				"Electronic"
+			],
+			"type": "gadgets"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Smartphone",
+			"category_type": "gadgets",
+			"color": "Black",
+			"desc": "Dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 655.0,
+			"features": [
+				"Full Screen Touch",
+				"6GB Ram and 128 Gb Memory",
+				"Wireless Headphone"
+			],
+			"image": "gadgets/g-2-a.jpg",
+			"image_gallery": [
+				"gadgets/g-2-a.jpg",
+				"gadgets/g-2-b.jpg",
+				"gadgets/g-2-c.jpg",
+				"gadgets/g-2-d.jpg"
+			],
+			"name": "Black Smartphone",
+			"productID": 12,
+			"popular": false,
+			"price": 847.63,
+			"product_code": "#EM1210",
+			"quantity": 1,
+			"rating": 4,
+			"status": 0,
+			"tags": [
+				"Phone ",
+				"Smartphone ",
+				"New"
+			],
+			"type": "gadgets"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Watch",
+			"category_type": "gadgets",
+			"color": "Black",
+			"desc": "Dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 225.56,
+			"features": [
+				"Soft Leather",
+				"Chargable",
+				"Delivery in 4 Days"
+			],
+			"image": "gadgets/g-3-a.jpg",
+			"image_gallery": [
+				"gadgets/g-3-a.jpg",
+				"gadgets/g-3-b.jpg",
+				"gadgets/g-3-c.jpg",
+				"gadgets/g-3-d.jpg"
+			],
+			"name": "Digial Watch",
+			"productID": 13,
+			"popular": true,
+			"price": 357.75,
+			"product_code": "#EM12012",
+			"quantity": 1,
+			"rating": 4,
+			"status": 0,
+			"tags": [
+				"Analog/Digital ",
+				"Men/Women ",
+				"Black"
+			],
+			"type": "gadgets"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Watch",
+			"category_type": "gadgets",
+			"color": "Black",
+			"desc": "Opsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 458.0,
+			"features": [
+				"Touch Screen",
+				"Bluetooth",
+				"Free Shipping and delivery in 4 Days"
+			],
+			"image": "gadgets/g-4-a.jpg",
+			"image_gallery": [
+				"gadgets/g-4-a.jpg",
+				"gadgets/g-4-b.jpg",
+				"gadgets/g-4-c.jpg",
+				"gadgets/g-4-d.jpg",
+				"gadgets/g-4-e.jpg"
+			],
+			"name": "Digital Watch",
+			"productID": 14,
+			"popular": false,
+			"price": 568.75,
+			"product_code": "#EM1213",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Analog/Digital ",
+				"Men/Women ",
+				"Black"
+			],
+			"type": "gadgets"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Speaker",
+			"category_type": "gadgets",
+			"color": "Black",
+			"desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 698.45,
+			"features": [
+				"Woofer",
+				"Wireless",
+				"Free Shipping And Delivery In 4 Days"
+			],
+			"image": "gadgets/g-5-a.jpg",
+			"image_gallery": [
+				"gadgets/g-5-a.jpg",
+				"gadgets/g-5-b.jpg",
+				"gadgets/g-5-c.jpg",
+				"gadgets/g-5-d.jpg"
+			],
+			"name": "Circular Speaker",
+			"productID": 15,
+			"popular": false,
+			"price": 989,
+			"product_code": "#EM1214",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Speaker",
+				"Smart",
+				"Circular"
+			],
+			"type": "gadgets"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Jeans",
+			"category_type": "clothing",
+			"color": "Blue",
+			"desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 13.3,
+			"features": [
+				"Slim Fit",
+				"Stretchable",
+				"Free Shipping And Delivery In 4 Days"
+			],
+			"image": "men/3-item-a.jpg",
+			"image_gallery": [
+				"men/3-item-a.jpg",
+				"men/3-item-b.jpg",
+				"men/3-item-c.jpg",
+				"men/3-item-d.jpg",
+				"men/3-item-e.jpg"
+			],
+			"name": "Vintage Jean",
+			"productID": 1,
+			"popular": false,
+			"price": 18.75,
+			"product_code": "#EM1201",
+			"quantity": 1,
+			"rating": 4,
+			"status": 0,
+			"tags": [
+				"Jean ",
+				"Men ",
+				"Outwear"
+			],
+			"type": "men"
+		},
+		{
+			"availablity": true,
+			"brand": "Bull Riders",
+			"category": "Jackets",
+			"category_type": "clothing",
+			"color": "Black",
+			"desc": "Sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque asper",
+			"discount_price": 67.0,
+			"features": [
+				"Loose Fit",
+				"Pure Leather",
+				"Free Shipping and delivery in 2 Days"
+			],
+			"image": "men/2-item-a.jpg",
+			"image_gallery": [
+				"men/2-item-a.jpg",
+				"men/2-item-b.jpg",
+				"men/2-item-c.jpg",
+				"men/2-item-d.jpg",
+				"men/2-item-e.jpg"
+			],
+			"name": "Super Jacket",
+			"productID": 2,
+			"popular": false,
+			"price": 82.75,
+			"product_code": "#EM1202",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Winter ",
+				"Men ",
+				"Jacket"
+			],
+			"type": "men"
+		},
+		{
+			"availablity": true,
+			"brand": "Jeno Karla",
+			"category": "Shirt",
+			"category_type": "clothing",
+			"color": "Blue",
+			"desc": "Suspendisse porttitor ornare ligula. Nam massa erat, fermentum dolor quis, maximus ultrices diam. Aenean pellentesque auctor elementum",
+			"discount_price": 36.0,
+			"features": [
+				"Slim Fit",
+				"Denim Made",
+				"Free Shipping in some areas and delivery in 4 Days"
+			],
+			"image": "men/1-item-a.jpg",
+			"image_gallery": [
+				"men/1-item-a.jpg",
+				"men/1-item-b.jpg",
+				"men/1-item-c.jpg",
+				"men/1-item-d.jpg",
+				"men/1-item-e.jpg"
+			],
+			"name": "Denim Pullover",
+			"productID": 3,
+			"popular": false,
+			"price": 42.75,
+			"product_code": "#EM1203",
+			"quantity": 1,
+			"rating": 4,
+			"status": 0,
+			"tags": [
+				"Men ",
+				"Pullover",
+				"Denim"
+			],
+			"type": "men"
+		},
+		{
+			"availablity": true,
+			"brand": "The Capressi",
+			"category": "Jeans",
+			"category_type": "clothing",
+			"color": "Blue",
+			"desc": "Dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 32.0,
+			"features": [
+				"Slim Fit",
+				"Relaxed",
+				"Free Shipping and delivery in 1 Days"
+			],
+			"image": "men/4-item-a.jpg",
+			"image_gallery": [
+				"men/4-item-a.jpg",
+				"men/4-item-b.jpg",
+				"men/4-item-c.jpg",
+				"men/4-item-d.jpg",
+				"men/4-item-e.jpg"
+			],
+			"name": "Blue Jean",
+			"productID": 4,
+			"popular": false,
+			"price": 40.82,
+			"product_code": "#EM1204",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Blue",
+				"Men",
+				"Jean"
+			],
+			"type": "men"
+		},
+		{
+			"availablity": true,
+			"brand": "JK CK",
+			"category": "T-Shirt",
+			"category_type": "clothing",
+			"color": "Black",
+			"desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia",
+			"discount_price": 17.0,
+			"features": [
+				"Slim Fit",
+				"Pure Cotton",
+				"Free Shipping And Delivery In 4 Days"
+			],
+			"image": "men/5-item-a.jpg",
+			"image_gallery": [
+				"men/5-item-a.jpg",
+				"men/5-item-b.jpg",
+				"men/5-item-c.jpg",
+				"men/5-item-d.jpg",
+				"men/5-item-e.jpg"
+			],
+			"name": "Black T-Shirt",
+			"productID": 5,
+			"popular": false,
+			"price": 22.75,
+			"product_code": "#EM1205",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Black ",
+				"Men ",
+				"Summer"
+			],
+			"type": "men"
+		},
+		{
+			"availablity": true,
+			"brand": "Nike",
+			"category": "Shoes",
+			"category_type": "shoes",
+			"color": "Black",
+			"desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 55.0,
+			"features": [
+				"Leather",
+				"Wipe with a clean, dry cloth to remove dust"
+			],
+			"image": "men/cat-shoes.jpg",
+			"image_gallery": [
+				"men/cat-shoes.jpg"
+			],
+			"name": "Men White AIR",
+			"productID": 6,
+			"popular": true,
+			"price": 65.75,
+			"product_code": "#4330899",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Black ",
+				"White"
+			],
+			"type": "men"
+		},{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Dresses",
+			"category_type": "clothing",
+			"color": "Red",
+			"desc": "Amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque asper",
+			"discount_price": 75.0,
+			"features": [
+				"Regular Fit ",
+				"Pure Cotton ",
+				"Delivery in 3 Days"
+			],
+			"image": "women/6-item-a.jpg",
+			"image_gallery": [
+				"women/6-item-a.jpg",
+				"women/6-item-b.jpg",
+				"women/6-item-c.jpg",
+				"women/6-item-d.jpg",
+				"women/6-item-e.jpg"
+			],
+			"name": "Red Strip Dress",
+			"productID": 7,
+			"popular": false,
+			"price": 97.75,
+			"product_code": "#EM1205",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Red ",
+				"Women ",
+				"Outwear"
+			],
+			"type": "women"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Shirt",
+			"category_type": "clothing",
+			"color": "Blue",
+			"desc": "Dolor sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis",
+			"discount_price": 45.0,
+			"features": [
+				"Loose Fit",
+				"Pure Denim",
+				"Free Shipping And Delivery In 2 Days"
+			],
+			"image": "women/7-item-a.jpg",
+			"image_gallery": [
+				"women/7-item-a.jpg",
+				"women/7-item-b.jpg",
+				"women/7-item-c.jpg",
+				"women/7-item-d.jpg",
+				"women/7-item-e.jpg"
+			],
+			"name": "Blue Denim",
+			"productID": 8,
+			"popular": false,
+			"price": 49.75,
+			"product_code": "#EM1206",
+			"quantity": 1,
+			"rating": 4,
+			"status": 0,
+			"tags": [
+				"Blue ",
+				"Outwear ",
+				"Denim"
+			],
+			"type": "women"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "Dresses",
+			"category_type": "clothing",
+			"color": "Black",
+			"desc": "Consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque aspernatur",
+			"discount_price": 12.0,
+			"features": [
+				"Slim Fit",
+				"Pure Cotton",
+				"Free Shipping And Delivery In 4 Days"
+			],
+			"image": "women/8-item-a.jpg",
+			"image_gallery": [
+				"women/8-item-a.jpg",
+				"women/8-item-b.jpg",
+				"women/8-item-c.jpg",
+				"women/8-item-d.jpg",
+				"women/8-item-e.jpg"
+			],
+			"name": "Black Dress",
+			"productID": 9,
+			"popular": false,
+			"price": 15.75,
+			"product_code": "#EM1207",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"Red ",
+				"Women ",
+				"Outwear"
+			],
+			"type": "women"
+		},
+		{
+			"availablity": true,
+			"brand": "Liod Marcos",
+			"category": "T-Shirt",
+			"category_type": "clothing",
+			"color": "White",
+			"desc": "Sit amet consectetur, adipisicing elit. Distinctio aperiam debitis ipsa veniam eos quas excepturi quae? Recusandae distinctio nihil quia quis, eaque",
+			"discount_price": 15.0,
+			"features": [
+				"Slim Fit ",
+				"100% Cotton ",
+				"Free Shipping And Delivery In 2 Days"
+			],
+			"image": "women/9-item-a.jpg",
+			"image_gallery": [
+				"women/9-item-b.jpg",
+				"women/9-item-c.jpg",
+				"women/9-item-d.jpg",
+				"women/9-item-e.jpg"
+			],
+			"name": "White T-Shirt",
+			"productID": 10,
+			"popular": false,
+			"price": 19.45,
+			"product_code": "#EM1208",
+			"quantity": 1,
+			"rating": 5,
+			"status": 0,
+			"tags": [
+				"White ",
+				"Graphic ",
+				"Women"
+			],
+			"type": "women"
+		}
+	]
+}

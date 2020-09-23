@@ -1,0 +1,111 @@
+// Violet theme
+$primary: #53419a;
+$secondary: #f0bc02;
+$success: #37ae3d;
+$info: #00d0bd;
+$error: #e53935 ;
+$warning: #ffb70f;
+
+.violet-theme{
+	.bg-primary {
+		background-color: $primary !important;
+	}
+	.bg-info {
+		background-color: $info !important;
+	}
+	.bg-secondary {
+		background-color: $secondary !important;
+	}
+	.bg-success {
+		background-color: $success !important;
+	}
+	.bg-warning {
+		background-color: $warning !important;
+	}
+	// Text
+	.text-success {
+		color: $success !important;
+	}
+	.text-primary {
+		color: $primary !important;
+	}
+	.text-danger {
+		color: $error !important;
+	}
+	.text-dark {
+		color: $dark !important;
+	}
+	.text-secondary {
+		color: $secondary !important;
+	}
+	.text-info {
+		color: $info !important;
+	}
+	.badge-primary {
+		background-color: rgba(83, 65, 154, 0.15);
+		color: $primary;
+	}
+	.badge-danger {
+		background-color: rgba(230, 76, 61, 0.15);
+		color: $error;
+  	}
+	a,.custom-table-arrow i,.footer-icon span,.feature-status i{
+		color: $primary;
+	}
+	.primary-bg-btn:hover, .title-banner ,.faq-banner{
+		background: $primary !important;
+  	}
+  	.notifi-list--header{
+		background:  $primary;
+		color:  $primary;
+	}
+	.sidebar-notifi-list--item.primary-noti .notifi-list--header,.rbc-today{
+		background-color: rgba(83, 65, 154, 0.15);
+		
+	}
+	.weather-widget i,.white-btn-color a:hover,
+	.sidebar-notifi-list--item.primary-noti .notifi-list--header i, .sidebar-notifi-list--item.primary-noti .notifi-list--header p, .sidebar-notifi-list--item.primary-noti .notifi-list--header span{
+		color:  $primary !important;
+	}
+	.primary-bg-btn,.footer-icon{
+		background-color: rgba(83, 65, 154, 0.1) !important;
+    	border: 0 !important;
+	}
+	.white-btn-color a,.faq-banner h4{
+		color:$white;
+	}
+	.hk-calendar-wrap .rbc-toolbar button.rbc-active, .hk-calendar-wrap .rbc-toolbar button:hover{
+		background-color:  $primary;
+	}
+	.rbc-event {
+		background-color: $primary;
+		border-color: $primary !important;
+	  }
+	  .title-banner-block,.title-contact-block,.ribbon span{
+		background-color:  $primary !important;
+	  }
+	  .switch-toggle {
+		border-color: $primary;
+		background: $primary;
+  	}
+	.plan-label {
+		background: rgba(83, 65, 154, 0.4) !important;
+	}
+	.plan-label.active,.extra-cap[class*="makeStyles-activeBtn-"] .pack-content,.page-404,.page-500-img {
+		background: $primary !important;
+  }
+  .extra-cap[class*="makeStyles-activeBtn-"]{
+	border-color: $primary !important;
+  }
+  .horizontal-timeline--meta{
+	border-color: $primary;
+	color: $primary;
+  }
+  	.horizontal-menu > ul .sub-menu li a:hover {
+		color: $primary;
+	}
+	.active-Stack {
+		border-color: $primary !important;
+		background-color: $primary !important;
+  }
+}

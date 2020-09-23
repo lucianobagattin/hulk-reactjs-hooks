@@ -1,0 +1,252 @@
+// Quill Ediotr
+.quill {
+  overflow: hidden;
+}
+.ql-container {
+  height: 350px !important;
+}
+// .ql-container.ql-snow, .ql-toolbar.ql-snow {
+//   border-color: $input-border-color;
+// }
+
+/*======== Calender Scss =======*/
+
+.calendar-wrapper {
+  .rbc-calendar {
+    display: block;
+  }
+}
+
+.rbc-month-row {
+  min-height: 150px;
+}
+
+.rbc-event {
+  background-color: $primary;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid $primary !important;
+}
+.rbc-show-more {
+  color: $primary;
+  &:hover {
+    color: $secondary;
+  }
+}
+
+.hk-calendar-wrap {
+  .rbc-toolbar {
+    margin-bottom: 30px;
+    .rbc-toolbar-label {
+      -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      padding: 0 10px;
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    button {
+      text-transform: capitalize;
+    }
+    button.rbc-active,
+    button:hover {
+      background-color: $primary;
+      color: $white;
+    }
+    button.rbc-active,
+    button:hover,
+    button:focus {
+      box-shadow: none;
+      outline: 0;
+    }
+  }
+}
+
+.v-timeline-list {
+  //display: flex;
+  align-items: center;
+  position: relative;
+  .v-timeline-meta {
+    //  width: 15%;
+    display: flex;
+    color: $color-disabled;
+    padding-left: 2rem;
+  }
+  .v-timeline-block {
+    //width: 85%;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    padding: 2rem;
+  }
+
+  .v-timeline-action {
+    flex-direction: column;
+    display: flex;
+    button {
+      margin: 0.3rem 0;
+    }
+    span i {
+      font-size: 1.1rem;
+      margin-right: 0.3rem;
+    }
+  }
+}
+.v-timeline-icon {
+  color: $color-disabled;
+  align-items: center;
+  font-size: 1.1rem;
+  display: flex;
+  margin: 1rem 0;
+  .v-timeline-date {
+    margin-left: 0.5rem;
+  }
+}
+
+@media (min-width: 767px) {
+  .v-timeline-list {
+    display: flex;
+    .v-timeline-meta {
+      width: 15%;
+    }
+
+    .v-timeline-block {
+      width: 85%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .v-timeline-meta {
+      &:before {
+        content: "";
+        height: 100%;
+        background: $color-disabled;
+        border-left: 1px solid $border-color;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        bottom: 0;
+      }
+    }
+  }
+  .v-timeline-content {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .v-timeline-list .v-timeline-meta {
+    padding: 0;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  .v-timeline-icon {
+    justify-content: center;
+  }
+  .v-timeline-list .v-timeline-block {
+    margin-top: 1.3rem;
+    margin-bottom: 2.5rem;
+  }
+  .v-timeline-content {
+    margin-bottom: 1.3rem;
+  }
+}
+
+//Hits
+
+.top-hits {
+  padding-left: 0;
+  list-style: none;
+  li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $border-color;
+    padding: 1rem 0;
+	 &:first-child{
+		 padding-top:0;
+	 }
+	 &::last-child{
+		 border-bottom: 0;
+	 }
+    justify-content: space-between;
+    .top-product-detail {
+      display: flex;
+      .top-product-thumb {
+        margin-right: 1rem;
+        img {
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+          vertical-align: middle;
+        }
+      }
+    }
+  
+  }
+  .top-product-title {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: $dark;
+  }
+  .top-product-meta p {
+    display: flex;
+    align-items: center;
+    i {
+      font-size: 1rem;
+    }
+  }
+}
+.top-product-sale {
+	p {
+		font-size: 1rem;
+		color: $primary;
+		font-weight: 500;
+		span{
+			display: block;
+		}
+	}
+}
+.custom-sec {
+  padding: 5rem 2rem;
+}
+.contact-us-item {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+//sale widhe
+
+.sale-widget-wrap {
+  margin-bottom: 1rem;
+  ul {
+    padding-left: 0;
+    display: inline-flex;
+    list-style: none;
+    li {
+      margin-right: 1.6rem;
+      border-right: 1px solid #d5d5d5;
+      padding-right: 1.6rem;
+      &:last-child {
+        border-right: 0;
+      }
+      p {
+        font-weight: 500;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+.sale-widget-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+// Chat
+.chat-list{
+	padding-top: 70px;
+}
+.no-found-user-wrap{
+	padding: 10px 30px;
+	text-align: center;
+}

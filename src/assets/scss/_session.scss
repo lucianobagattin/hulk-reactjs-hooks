@@ -1,0 +1,279 @@
+.session-wrapper {
+	height: 100vh;
+	overflow-y: auto;
+	display: flex;
+}
+
+.login-wrapper {
+	height: 100vh;
+	align-items: center;
+	background: $white;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 0rem 4rem;
+}
+.login-wrap {
+	display: flex;
+	height: 100%;
+	align-items: stretch;
+	width: 100%;
+}
+.session-logo {
+	margin-bottom: 3rem;
+	padding-top: 2rem;
+}
+
+.login-content {
+	text-align: center;
+	padding: 3rem;
+}
+
+.social-login-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem 0;
+	p {
+		margin-right: 1rem;
+	}
+	.MuiFab-root {
+		border-radius: 5px;
+		margin: 0 0.5rem;
+		width: 35px;
+		height: 32px;
+		min-height: 32px;
+		font-size: 18px;
+	}
+}
+.or-sign-up p {
+	margin-bottom: 1rem;
+}
+
+.facebook-color {
+	background: $facebook !important;
+}
+.google-color {
+	background: $google !important;
+}
+
+.twitter-color {
+	background: $twitter !important;
+}
+.github-color {
+	background: $github !important;
+}
+.session-title {
+	margin-bottom: 2rem;
+}
+
+.page-500-content {
+	span {
+		font-size: 234px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	h5 {
+		margin-bottom: 0.5rem;
+	}
+}
+
+.page-500-img-wrap {
+	text-align: right;
+	padding-right: 8rem !important;
+}
+
+.page-500-img {
+	position: relative;
+	z-index: 9999;
+
+	&:after {
+		box-shadow: 9px 12px 10px rgba(0, 0, 0, 0.1);
+		width: 100%;
+		height: 100%;
+		content: "";
+		position: absolute;
+		left: 100px;
+		top: 0;
+		z-index: -1;
+		border-radius: 100%;
+	}
+}
+
+.page-500 .page-space-top {
+	padding-top: 0 !important;
+}
+
+.page-space-top {
+	padding-top: 5rem;
+}
+
+.page-404 {
+	background: $primary;
+	height: 100vh;
+	overflow: auto;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	.page-space-top {
+		padding-top: 0;
+	}
+}
+
+.page-404-content {
+	margin-top: 1rem;
+
+	h5 {
+		color: $white;
+		margin-bottom: 1.3rem;
+	}
+
+	p {
+		color: $white;
+		margin-bottom: 1rem;
+	}
+}
+
+.page-500-img {
+	background: $primary;
+	display: inline-block;
+	width: 350px;
+	height: 350px;
+	text-align: right;
+	border-radius: 100%;
+}
+.page-500-content {
+	padding-right: 8rem;
+}
+.session-box{
+	width:400px;
+	.title{
+		margin-bottom: 15px;
+		font-weight: 700;
+	}
+	.subtitle{
+		font-weight: 500;
+	}
+}
+.sign-box{
+	width:900px;
+	.left-content{
+		width: 570px;
+	}
+	.right-content{
+		width: 330px;
+	}
+	.overlay-wrap{
+		position: relative;
+		.thumb-wrap,img{
+			line-height: 0.8;
+		}
+	}
+	.overlay-content{
+		background:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); 
+		position: absolute;
+		left:0;
+		right: 0;
+		bottom: 0;
+		padding: 50px 20px 20px;
+		//top:0;
+		display:flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		h6,p{
+			color:$white;
+		}
+		h6{
+			margin-bottom: 10px;
+		}
+	}
+}
+@media (max-width: 959px) {
+	.session-wrapper {
+		background: $white;
+	}
+	.session-wrapper-v2{
+		background: $bg-default;
+	}
+	.img-session {
+		display: none !important;
+	}
+	.login-wrapper {
+		height: auto;
+		display: block;
+	}
+	.login-wrap {
+		display: block !important;
+	}
+	.sign-box{
+		width:100%;
+		.left-content{
+			width: 500px;
+		}
+		.right-content{
+			display:none;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.login-wrapper {
+		padding: 2rem 2rem;
+	}
+	.social-login-wrapper {
+		display: block;
+	}
+	.social-login-wrapper p {
+		margin-right: 0rem;
+		margin-bottom: 1rem;
+	}
+	.mod-profile-meta.mod-post-meta span {
+		display: none;
+	}
+}
+@media (max-width: 599px) {
+	.session-box{
+		width: 100%;
+		padding: 0 20px;
+		.login-form, .signup-form {
+			padding: 12px 0;
+	  	}
+	}
+	.sign-box-wrap{
+		width:100%;
+		padding: 0 20px;
+		.left-content{
+			width: 100%;
+		}
+		.signup-form {
+			padding: 12px 0;
+	  	}
+	}
+}
+.img-session {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.session-wrapper-v2{
+	align-items: flex-start;
+	padding-top: 30px;
+}
+.login-form,.signup-form{
+	padding: 12px;
+	.social-login-wrapper{
+		margin-top: 20px;
+	}
+	.MuiButtonBase-root.blockBtn{
+		padding-top: 0.5rem;
+    	padding-bottom: 0.5rem;
+	}
+}
+.outlined-input .MuiOutlinedInput-input{
+	padding: 14px !important;
+}
+.session-box .MuiTab-wrapper,.sign-box .MuiTab-wrapper{
+	color: #29303b;
+}

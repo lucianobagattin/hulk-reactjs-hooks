@@ -1,0 +1,125 @@
+// Icon Sidebar Layout
+.icon-layout-wrap {
+	.icon-header-layout header {
+		width: 100% !important;
+		margin-left: 0 !important;
+		position: static !important;
+	}
+	.hk-icon-layout {
+		display: flex;
+	}
+	.hamburger-icon {
+		display: none;
+	}
+	.icon-sidebar {
+		background-color: #29303b;
+		.icon-drawer {
+			width: 80px !important;
+		}
+	}
+	.hk-main {
+		margin-left: 0;
+		padding-top: 0;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+	.search-bar-wrap {
+		left: 80px;
+		bottom: auto;
+		height: 64px;
+	}
+}
+
+.icon-menu-wrap {
+	height: 100%;
+	.main-menu {
+		padding: 0;
+		margin: 0;
+		position: fixed;
+		left: 0;
+		right: auto;
+		width: 80px;
+		.sub-menu-wrap {
+			z-index: 1300;
+			visibility: hidden;
+			opacity: 0;
+			transform: translateX(40px) scale(0.95);
+			position: absolute;
+			background-color: $white;
+			color: $dark;
+			left: 95%;
+			top: -10px;
+			text-align: left;
+			box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 40px 0px;
+			transition: all 0.2s ease 0s;
+			overflow: hidden;
+		}
+		.sub-menu-header {
+			display: flex;
+			align-items: center;
+			font-size: 2rem;
+			color: $dark;
+			letter-spacing: -0.5px;
+			white-space: nowrap;
+			font-weight: 500;
+			padding: 5px 30px;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+			overflow: hidden;
+		}
+		.sub-menu-icon {
+			font-size: 30px;
+			padding-right: 10px;
+		}
+		.sub-menu-list {
+			display: flex;
+			> ul {
+				width: 100%;
+				list-style: none;
+				padding: 0px;
+				> li {
+					border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+					a {
+						color: $dark;
+						display: block;
+						font-size: 0.99rem;
+						position: relative;
+						white-space: nowrap;
+						padding: 10px 35px;
+					}
+				}
+			}
+		}
+		.menu-item {
+			position: relative;
+			> a {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-height: 50px;
+				padding: 10px;
+				border-bottom: 1px solid #404854;
+				line-height: 1;
+				text-align: center;
+				> i {
+					font-size: 28px;
+					color: $white;
+				}
+			}
+			&:hover .sub-menu-wrap {
+				visibility: visible;
+				opacity: 1;
+				transform: translateX(0) scale(1);
+			}
+		}
+	}
+}
+
+.icon-menu-wrap .main-menu > .menu-item {
+	&:nth-last-child(-n + 3) {
+		&:hover{
+			.sub-menu-wrap{
+				top:-100%;
+			}
+		}
+	}
+}

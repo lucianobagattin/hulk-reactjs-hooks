@@ -1,0 +1,166 @@
+// Dark Theme
+$bgPaper:#27293c; 
+$bgDefault: #1e1e2e;
+$textPrimary: #9d9daf;
+$textSecondary: #717275;
+$borderColor:$textPrimary;
+$success: #37ae3d;
+$info: #00d0bd;
+$error: #e64c3d ;
+$warning: #ffb70f;
+.session-box .MuiTab-wrapper,.sign-box .MuiTab-wrapper{
+	color: #29303b;
+}
+.dark-theme{
+	.sidebar-wrap, .bg-white, .cart-wrapper,.hk-mail-wrapper nav,.contact-list-wrap.MuiPaper-root,.user-detail .MuiFab-root,.faq-banner,.ag-theme-balham .ag-header,.ag-theme-balham,.ag-theme-balham .ag-row-even,.ag-theme-balham .filter-text-input,.horizontal-menu,.horizontal-menu > ul .sub-menu, .sidebar-footer, .vertical-stepper-wrap .MuiStepper-vertical .bg-scroller,.plan-dialog-content i,.hk-page-loader,.tutorials-wrap .h-stepper--head,.mega-footer,.hk-full-loader{
+		background-color: $bgPaper;
+	}
+	.text-dark, .preview-icon-btn i, .product-list .list-wish .material-icons,.border-highlight,.invoice-page .MuiTableCell-head, .ag-header-cell-label,.ag-theme-balham .ag-cell,.ag-theme-balham .filter-text-input,.ag-paging-panel .ag-paging-row-summary-panel span,.ag-paging-panel .ag-paging-row-summary-panel,.ag-theme-balham .ag-paging-panel > span,.horizontal-menu > ul > .nav-item > span,.horizontal-menu > ul .sub-menu li a,.horizontal-menu > ul .sub-menu .menu-item-has-child > a::after,.contact-tab-wrap .MuiTableCell-head,.linkTitle,.mega-titleIcon--icon,.mega-articles ul li a,.mega-menu-ul span{
+		color:$textPrimary !important;
+	}
+	.quick-links li a, .preview-content span:first-child, .res-dropdown .custom-btn, .top-hits .top-product-title
+	, .product-price, p.cart-item-price,.hk-calendar-wrap .rbc-toolbar button,.plan-dialog-content p,.quick-doc .quick-doc-help i,.quick-doc .quick-doc-title, .session-box .MuiTab-wrapper,.sign-box .MuiTab-wrapper{
+		color:$textPrimary ;
+	}
+	.preview-icon-btn, .dialog-header, .top-hits li, .product-list .product-action,.main-invoice,.border-right,.border-left,
+	.hk-calendar-wrap .rbc-toolbar button,.rbc-month-view,.rbc-header,.rbc-day-bg + .rbc-day-bg,.rbc-month-row + .rbc-month-row,
+	.rbc-time-view, .rbc-time-content > * + * > *,.pricing-wrapper table,.pricing-wrapper table td, .pricing-wrapper table th,
+	.ag-theme-balham .ag-header-cell, .ag-theme-balham .ag-header-group-cell,.ag-theme-balham .ag-pinned-left-header, .ag-theme-balham .ag-row,.ag-theme-balham .ag-ltr .ag-cell:not(.ag-cell-focus).ag-cell-last-left-pinned:not(.ag-cell-range-right), .ag-theme-balham .ag-ltr .ag-cell.ag-cell-range-selected:not(.ag-cell-range-single-cell).ag-cell-last-left-pinned:not(.ag-cell-range-right), .ag-theme-balham .ag-ltr .ag-root:not(.ag-has-focus) .ag-cell.ag-cell-last-left-pinned:not(.ag-cell-range-right),.ag-theme-balham .filter-text-input,.search-overlay-wrap,.mega-menu-ul li{
+		border-color:$borderColor !important;
+	}
+	.ag-theme-balham .ag-input-wrapper input:not([type]), .ag-theme-balham .ag-input-wrapper input[type='text'], .ag-theme-balham .ag-input-wrapper input[type='number'], .ag-theme-balham .ag-input-wrapper input[type='tel'], .ag-theme-balham .ag-input-wrapper input[type='date'], .ag-theme-balham .ag-input-wrapper input[type='datetime-local']{
+		border-color:$borderColor !important;
+		color:$textPrimary !important;
+	}
+	.full-page-menu li a >span,.ag-theme-balham .ag-header,.ag-theme-balham .ag-row-selected,.preview-panel {
+		background-color: $bgDefault !important;
+	}
+	.live-chat-wrap .admin-content, .rct-scroll .admin-content, .hk-mail-wrapper .list-wrap ,.hk-mail-wrapper .list-wrap .MuiList-root,.active-menu, .menu-wrap li .MuiCollapse-container ,.horizontal-menu > ul .sub-menu li a:hover,.vertical-stepper-wrap .MuiStepper-vertical,.quick-doc .quick-doc-help,.notifi-list--content,.mega-menu-parent .mega-menu-dropmenu,.session-wrapper.session-wrapper-v2{
+		background-color:$bgDefault;
+	}
+	.dark-overlay{
+		background-color:rgba(0,0,0,0.4),
+	}
+	.rbc-show-more{
+		background-color:rgba(0,0,0,0.2),
+	}
+	.ag-theme-balham .ag-row-odd,.search-overlay-wrap ul{
+		background-color:$bgPaper !important;
+	}
+	.search-bar, .ratingHeader,.cart-action-panel,.checkout-tabs,.ecommerce-sigin-wrap .white-container,.pricing-wrapper table,
+	.v-timeline-list .v-timeline-block,.horizontal-timeline--meta,.horizontal-timeline--content,.stepper-box,.ag-theme-balham,.mod-profile-wrap .mod-profile,.session-wrapper, .session-wrapper .login-wrapper{
+		background:$bgPaper;
+	}
+	.subtotal, .cart-list-item, .border-highlight,.invoice-page .MuiTableCell-head,.rbc-off-range-bg,.contact-us-item,.pricing-update,.page-404,.page-500{
+		background:$bgDefault,
+	}
+	.product-list p, .product-content p, .reviewList li p, .cart-detail p, .main-invoice p,.user-activity p, .faq-page .MuiExpansionPanelDetails-root p,.horizontal-timeline--content p, .blog-grid-wrap p, .blog-detail-wrap p,.main-invoice .content-wrap > div {
+		color:$textSecondary ;
+	}
+	.invoice-table {
+		border-radius:0;
+		box-shadow: none;
+		.MuiTableRow-root:nth-child(odd){
+			background-color:$bgPaper;
+		}
+		.MuiTableRow-root:nth-child(even){
+			background-color:$bgDefault;
+		}
+	}
+	.hk-calendar-wrap .rbc-toolbar button.rbc-active, .hk-calendar-wrap .rbc-toolbar button:hover, .hk-calendar-wrap .rbc-toolbar button:focus{
+		color: #fff;
+	}
+	.contact-list-wrap .MuiTableCell-root {
+		background-color: transparent;
+	}
+	.dark-pricing-list{
+		border-color: #262F5E;
+		.label{
+			background-color:$bgDefault;
+		}
+	}
+	.switch {
+		border-color: $bgPaper;
+		box-shadow: 0 0 3px 0 $bgPaper;
+		background: $bgPaper;
+	}
+	.switch.on {
+		background: $bgPaper;
+	}
+	
+	.switch-toggle {
+		box-shadow: 1px 1px 1px $bgPaper;
+	}
+	.horizontal-timeline-list--item::before{
+		 background: $borderColor;
+	}
+	.custom-table-wrap {
+		.MuiTableCell-head{
+			background-color:$bgDefault;
+		}
+		.MuiTableBody-root tr{
+			background-color: $bgPaper !important;
+		}
+	} 
+	.ag-theme-balham{
+		::-webkit-scrollbar-track {
+			background: $bgDefault;
+		}
+		.ag-paging-panel{
+			height: 48px !important;
+			color:$text-color !important;
+			font-size: 0.875rem !important;
+			.ag-icon{
+				font-size: 24px  !important;
+				width: 24px !important;
+				height: 24px !important;
+				color: $text-sec-color !important;
+			}
+		}
+	}
+	.ag-theme-balham .ag-icon-checkbox-checked, .ag-theme-balham .ag-icon-checkbox-indeterminate, .ag-theme-balham .ag-icon-checkbox-unchecked{
+		background-color: $bgPaper !important;
+	}
+	.sidebar-footer{
+		border-color:$bgPaper;
+	}
+	#reactgooglegraph-1 svg >g >rect{
+		fill: $bgPaper ;
+	}
+	.mod-profile-wrap .mod-profile,.payment-int-wrap .payment-int-tab{
+		border-color:rgba(255,255,255,0.12);
+	}
+	.payment-int-wrap{
+		border-color:$bgDefault;
+		.MuiPaper-root,.payment-int-tab .payment-sidebar .payment-logo{
+			border-color:$bgPaper;
+		}
+		.payment-sidebar .payment-logo.Mui-selected{
+			background-color: $bgDefault ;
+		}
+		.payment-int-tab{
+			background: $bgPaper ;
+		}
+		.payment-sidebar{
+			background-color: $bgPaper ;
+		}
+	}
+	@media (max-width: 767px){
+		.ecommerce-sigin-wrap .border-right{
+			border:0;
+		}
+	}
+}
+.dark-theme.horizontal-layout {
+	.hk-header header,.horizontal-menu {
+		box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5) !important;
+	}
+}
+.session-wrapper{
+	.MuiInput-underline:before{
+		border-color:$borderColor;
+	}
+}
+.dark-theme .ham-menu {
+	color: $white !important;
+}

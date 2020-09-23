@@ -1,0 +1,68 @@
+{
+	"data":[
+         {
+            "pack": "component.starter",
+            "price": [
+					"$ 129<span class='post-price'>.00/mo</span>",
+					"$ 1528<span class='post-price'>.00/yr</span>"
+				],
+            "savePrice": 20,
+            "popular": false,
+            "features": [
+               { "feature": "3 Features", "enable": true, "icon": "fas fa-check" },
+               { "feature": "3 Service", "enable": true, "icon": "fas fa-check" },
+               { "feature": "Upto 5 team members", "enable": false, "icon": "fas fa-times"},
+               { "feature": "Advanced security", "enable": false, "icon": "fas fa-times"},
+               { "feature": "Permission & workflow", "enable": false, "icon": "fas fa-times"}
+            ]
+         },
+         {
+            "pack": "component.professional",
+            "price": [
+                        "$ 159<span class='post-price'>.00/mo</span>",
+                        "$ 1878<span class='post-price'>.00/yr</span>"
+                     ],
+            "savePrice": 30,
+            "popular": true,
+            "features": [
+                  { "feature": "Unlimited features", "enable": true, "icon": "fas fa-check"},
+                  { "feature": "Unlimited service", "enable": true, "icon": "fas fa-check"},
+                  { "feature": "Upto 5 team members", "enable": false, "icon": "fas fa-times"},
+                  { "feature": "Advanced security", "enable": false, "icon": "fas fa-times"},
+                  { "feature": "Permission & workflow", "enable": false, "icon": "fas fa-times"}
+               ]
+            },
+         {
+            "pack": "component.team",
+            "price": [
+                  "$ 199<span class='post-price'>.00/mo</span>",
+                  "$ 2348<span class='post-price'>.00/yr</span>"
+            ],
+            "savePrice": 40,
+            "popular": false,
+            "features": [
+               { "feature": "Unlimited features", "enable": true, "icon": "fas fa-check"},
+               { "feature": "Unlimited service", "enable": true, "icon": "fas fa-check"},
+               { "feature": "Upto 5 team members", "enable": true, "icon": "fas fa-check"},
+               { "feature": "Advanced security", "enable": false, "icon": "fas fa-times"},
+               { "feature": "Permission & workflow", "enable": false, "icon": "fas fa-times"}
+            ]
+         },
+         {
+            "pack": "component.enterprise",
+            "price": [
+                  "$ 299<span class='post-price'>.00/mo</span>",
+                  "$ 3999<span class='post-price'>.00/yr</span>"
+               ],
+            "savePrice": 50,
+            "popular": false,
+            "features": [
+               { "feature": "Unlimited features", "enable": true, "icon": "fas fa-check"},
+               { "feature": "Unlimited service", "enable": true, "icon": "fas fa-check" },
+               { "feature": "Upto 5 team members", "enable": true, "icon": "fas fa-check"},
+               { "feature": "Advanced security", "enable": true, "icon": "fas fa-check"},
+               { "feature": "Permission & workflow", "enable": true, "icon": "fas fa-check"}
+            ]
+         }
+   ]
+}

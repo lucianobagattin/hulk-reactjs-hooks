@@ -1,0 +1,1125 @@
+/*==== Rtl Layout Style Here =====*/
+
+.rtl-layout * {
+	direction: rtl !important;
+	//text-align: right !important;
+	@media (max-width: 2560px) and (min-width: 1800px) {
+      .hulk-scroll, .rct-scroll {
+         direction: rtl !important;
+         >div {
+            &:first-child {
+               margin-right: 0 !important;
+               margin-left: -17px !important;
+            }
+            &:last-child {
+               left: 2px;
+               right: auto !important;
+            }
+         }
+      }
+   }
+	.hulk-scroll, .rct-scroll {
+      direction: rtl !important;
+      >div {
+         &:first-child {
+            margin-right: 0 !important;
+				margin-left: -15px !important;
+				padding-left: 0px;
+         }
+         &:last-child {
+            left: 2px;
+            right: auto !important;
+         }
+      }
+	}
+	// Header
+	.hk-header{
+		header{
+			margin-left: 0 !important;
+			margin-Right: 260px !important;
+		}
+		.hamburger-icon{
+			margin-right: -80px;
+			margin-left: 16px;
+		}
+		.mega-menu-wrap{
+			padding-left: 0;
+			padding-right: 16px;
+		}
+		.mega-list{
+			padding-right: 0;
+			> li{
+				margin-right: 0;
+				margin-left: 15px;
+			}
+		}
+		.search-bar-wrap{
+			padding: 0 35px 0 17px;
+		}
+		.h-btn-lang .material-icons{
+			padding-left: 0;
+			padding-right: 8px;
+		}
+	}
+	.list-unstyled,.quick-links{
+		padding-right: 0;
+	}
+	.quick-links li a i,.quick-links li a span{
+		margin-right: 0;
+		margin-left: 0.5rem;
+	}
+	.quick-links li:nth-child(2n) {
+		padding-left: 0;
+		padding-right: 12px;
+  	}
+	.welcome-note .welcome-note-list i{
+		margin-right: 0;
+		margin-left: 1rem;
+	}
+	.dot-circle,.view-subsec span {
+		margin-right: 0;
+		margin-left: 5px;
+	}
+	.custom-btn span span{
+		margin-left: 0;
+		margin-right: 8px;
+	}
+	.mega-titleIcon .mega-titleIcon--icon{
+		margin-left: 0.7rem;
+		margin-right: 0;
+	}
+	.h-stepper-body .tutorial-btn{
+		right:auto;
+		left:80px;
+	}
+	.h-stepper-body .tutorials-wrap{
+		right:auto;
+		left:80px;
+	}
+	.tutorials-box {
+		.MuiStepLabel-iconContainer{
+			padding-left: 8px;
+			padding-right: 0;
+		}
+		.MuiStepContent-root{
+			margin-right: 12px;
+			padding-right: 20px;
+			padding-left: 8px;
+		}
+		.steppercontent{
+			border-right: 2px solid #e0e0e0 !important;
+			border-left: 0 !important;
+		}
+		.MuiStep-completed .steppercontent {
+			border-right: 2px solid #4d7df2 !important;
+			border-left:0 !important;
+	  	}
+	}
+	.custom-table-wrap {
+		.MuiFormControl-root{
+			padding-left: 0;
+			padding-right: 16px;
+		}
+		.MuiInputAdornment-root{
+			margin-right: 0;
+    		margin-left: 8px;
+		}
+		.MuiInputAdornment-root.MuiInputAdornment-positionEnd{
+			margin-left: 0;
+			margin-right: 8px;
+		}
+	}
+	.custom-table-arrow {
+		right: auto;
+		left: -10px;
+		i{
+			transform: rotateY(180deg);
+		}
+	}
+	.stats-sec{
+		padding-right: 0;
+		padding-left: 8px;
+		span{
+			margin-right: 0;
+			margin-left: 5px;
+		}
+	}
+	.MuiFormControl-root{
+		.MuiSelect-select.MuiSelect-select {
+			padding-left: 24px;
+			padding-right: 0;
+		}
+		.MuiSelect-icon {
+			left: 0;
+			right:auto
+		}
+	}
+	// material themes
+	.MuiTableCell-alignLeft{
+		text-align: right;
+	}
+	.welcome-block-wrap .icon-wrap{
+		margin-left: 8px;
+		margin-right: 0;
+	}
+	.server-icon{
+		padding-left: 0;
+		padding-right: 8px;
+	}
+	.dynamic-chart-wrap{
+		.mrb-1,.icon-wrap{
+			margin-left: 0.5rem !important;
+			margin-right: 0 !important;
+		}
+	}
+	.btn-group button{
+		margin-right: 0;
+		margin-left: 0.8rem;
+	}
+	.task-list-wrap{
+		.add-new-btn{
+			left:0;
+			right: auto;
+		}
+		.task-meta{
+			padding-right:16px ;
+			padding-left:0;
+			>div:first-child{
+				padding-left: 8px;
+				padding-right: 0;
+			}
+		}
+		.task-action{
+			left:0;
+			right: auto;
+		}
+		.icon-wrap{
+			margin-right: -18px;
+			padding-left: 0;
+			margin-left: 0;
+			padding-right: 3px;
+		}
+		.content-wrap{
+			text-align: right;
+		}
+		.checkbox-wrap{
+			label{
+				margin-left: 0;
+				margin-right: -10px;
+			}
+		}
+	}
+	.live-support-wrap{
+		.button-wrap{
+			left:0;
+			right: auto;
+		}
+		.live-chat-wrap li >div{
+			padding: 5px 0px 5px 10px;
+			.user-thumb{
+				padding-right: 0;
+				padding-left: 16px;
+			}
+			.admin-thumb{
+				padding-right: 16px;
+				padding-left: 0;
+			}
+			.admin-content{
+
+			}
+		}
+		.send-icon{
+			text-align: left !important;
+		}
+	}
+	.dynamic-bar-chart .btn-wrap{
+		padding-left: 8px;
+		padding-right: 0;
+	}
+	.new-user-list{
+		.MuiAvatar-root{
+			margin-right: 0;
+			margin-left: 10px;
+		}
+		.action-wrap{
+			padding-left: 0;
+			padding-right: 8px;
+		}
+		.MuiListItemText-root{
+			text-align: right;
+		}
+	}
+	.social-widget-wrap{
+		.content-wrap{
+			padding-left: 0;
+			padding-right: 24px;
+		}
+	}
+	.sale-widget-wrap ul{
+		padding-right:0;
+		li {
+			border-right: 0;
+			border-left: 1px solid #d5d5d5;
+			margin-right: 0;
+			padding-right: 0;
+			margin-left: 1.6rem;
+			padding-left: 1.6rem;
+			&:last-child{
+				border-left: 0;
+			}
+	  	}
+	}
+	.new-account-wrap {
+		.likes-wrap{
+			margin-right: 0;
+			margin-left: 8px;
+			.material-icons{
+				padding-left: 5px;
+				padding-right: 0;
+			}
+		}
+	}
+	.sales-chart-wrap, .marketing-chart-wrap{
+		.material-icons-outlined{
+			padding-right: 0;
+			padding-left: 8px;
+		}
+	}
+	.user-card--queue {
+		right:auto;
+		left:1.5rem;
+		ul{
+			padding-right: 0;
+		}
+	}
+	.user-card--social ul{
+		padding-right: 0;
+	}
+	.user-card--social li {
+		margin-right: 0;
+		margin-left: 2rem;
+	}
+	.user-card--detail .MuiButton-containedSecondary{
+		margin-right: 0;
+		margin-left: 10px;
+	}
+	.top-hits{
+		padding-right: 0;
+	}
+	.top-hits {
+		li .top-product-detail .top-product-thumb{
+			margin-right: 0;
+			margin-left: 1rem;
+		}
+		.top-product-meta {
+			margin-right: 0;
+			margin-left: 8px;
+			p i{
+				margin-left: 0.1rem;
+				margin-right: 0;
+			}
+		}
+	}
+	.MuiTable-root .MuiTableCell-root{
+		text-align: right;
+	}
+	.MuiTableRow-footer.MuiTableCell-root{
+		text-align: left;
+	}
+	.geo-map-wrap{
+		.country-name{
+			padding-left: 0;
+			padding-right: 16px;
+		}
+	}
+	.simple-table-widget{
+		.btn-sec-wrap{
+			text-align: left;
+		}
+		.btn-wrap{
+			.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child){
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+				border-top-right-radius: 4px;
+				border-bottom-right-radius: 4px;
+				border-right-color:rgba(77, 125, 242, 0.5)
+			}
+			.table-btn{
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+				border-top-left-radius: 4px;
+				border-bottom-left-radius: 4px;
+				border-right-color:transparent;
+			}
+		}
+		.status-wrap span{
+			padding-right: 0;
+			padding-left: 5px;
+		}
+		.MuiToolbar-root {
+			div:nth-child(4){
+				text-align: left !important;
+			}
+			.MuiInputAdornment-root{
+				margin-right: 0;
+				 margin-left: 8px;
+			}
+			.MuiInputAdornment-root.MuiInputAdornment-positionEnd{
+				margin-left: 0;
+				margin-right: 8px;
+			}
+		}
+		.MuiTableCell-body span{
+			padding-right: 0;
+			padding-left: 5px;
+		}
+	}
+	.recent-followers-wrap{
+		.content-wrap{
+			padding-left: 0;
+			padding-right: 16px;
+		}
+	}
+	.user-activity{
+		.user-name{
+			padding-right: 0;
+			padding-left: 5px;
+		}
+	}
+	.horizontal-stepper{
+		.MuiStepLabel-iconContainer{
+			padding-right: 0;
+			padding-left: 8px;
+		}
+	}
+	.pricing-update{
+		.update-img-thumb{
+			right: auto;
+			left:60px
+		}
+		.vertical-stepper-wrap{
+			padding-left: 0;
+			padding-right: 8px;
+		}
+		.MuiStepContent-root{
+			border-left: 0;
+			border-right: 1px solid #e0e0e0;
+			padding-left: 8px;
+			padding-right: 20px;
+		}
+		.MuiStepConnector-lineVertical{
+			border-left-width: 0;	
+			border-right-style: solid;
+    		border-right-width: 1px;
+		}
+	}
+	.dark-pricing-list {
+		i{
+			margin-right: 0;
+			margin-left: 10px;
+		}
+	}
+	.switch.on .switch-toggle{
+		left: 0;
+	}
+	.switch .switch-toggle{
+		left: -33px;
+	}
+	.pricing-wrapper table td.MuiTableCell-alignCenter, .pricing-wrapper table th.MuiTableCell-alignCenter{
+		text-align: center !important;
+	}
+	.v-timeline-icon .v-timeline-date {
+		margin-left: 0;
+		margin-right: 0.5rem;
+	}
+	.v-timeline-list .v-timeline-meta {
+		padding-left: 0;
+		padding-right: 2rem;
+	}
+	.v-timeline-list .v-timeline-action span i{
+		margin-right: 0;
+		margin-left: 0.3rem;
+	}
+	@media (min-width: 767px){
+		.v-timeline-list .v-timeline-meta:before {
+			content: "";
+			border-right: 1px solid #e0e0e0;
+			border-left: 0;
+			left: auto;
+			right: 10px;
+	   }
+	}
+	.contact-grid-item{
+		.icon{
+			padding-right: 0;
+			padding-left:5px;
+		}
+	}
+	.contact-grid-action {
+		left: 12px;
+		right:auto;
+	}
+	.react-swipeable-view-container{
+		direction: ltr !important;
+	}
+	.faq-page-wrap{
+		.MuiExpansionPanel-root.Mui-expanded:before{
+			right: 23px;
+			left: auto;
+		}
+		.MuiExpansionPanel-root:before{
+			left: auto;
+			right: 23px;
+		}
+		.MuiButtonBase-root.MuiExpansionPanelSummary-root{
+			padding-right: 2.625rem;
+			padding-left: 0.9375rem;
+			.MuiBox-root h6{
+				text-align: left;
+			}
+		}
+	}
+	.full-page-menu li a span{
+		margin-left: 16px;
+		margin-right: 0;
+	}
+	.shop-list-wrapper{
+		.shop-items{
+			margin-left: 0;
+			margin-right: 1.875rem;
+		}
+	}
+	.price-fil-widget{
+		.MuiSlider-markLabel{
+			transform: translateX(19px);
+		}
+	}
+	.product-wishlist{
+		right: auto;
+		transform: translateX(-10px);
+		left:0;
+	}
+	.product-list:hover .product-wishlist {
+		transform: translateX(0px);
+	}
+	.reviewList{
+		padding-right: 0;
+	}
+	.reviewList .title-review > div{
+		margin-left: 0.5rem;
+		margin-right: 0;
+	}
+	.ratingHeader h2 {
+		margin-left: 1rem;
+		margin-right: 0;
+  	}
+	.cart-list-wrap{
+		.cart-item-content{
+			padding-left: 0;
+			padding-right: 16px;
+		}
+		p.cart-item-price{
+			margin-left: 0;
+			margin-right: 1rem;
+		}
+	}
+	.main-invoice{
+		.text-right{
+			text-align: left;
+		}
+	}
+	.search-table-wrap{
+		.MuiToolbar-root{
+			padding-left: 8px;
+			padding-right: 24px;
+		}
+		.MuiInputAdornment-root{
+			margin-right: 0;
+			margin-left: 8px;
+		}
+		.MuiInputAdornment-root.MuiInputAdornment-positionEnd{
+			margin-left: 0;
+			margin-right: 8px;
+		}
+	}
+	.hk-user-settings{
+		.MuiTab-root .material-icons-outlined{
+			margin-right: 0;
+			margin-left: 8px;
+		}
+		.avatar-thumb{
+			padding-right: 0;
+			padding-left: 16px;
+		}
+	}
+	.hk-chat-wrap{
+		.MuiListItem-root{
+			text-align: right;
+		}
+		.MuiCollapse-container{
+			.MuiButtonBase-root{
+				padding-left: 16px;
+				padding-right: 32px;
+				.MuiListItemText-root{
+					text-align: right;
+				}
+			}
+			.icon{
+				padding-right: 0;
+				padding-left: 8px;
+			}
+		}
+	}
+	.chat-main-body{
+		.thumb-wrap{
+			padding-left: 16px;
+			padding-right: 0;
+		}
+		.user-thumb-wrap{
+			padding-right: 16px;
+			padding-left: 0;
+		}
+		.send-icon{
+			text-align: left;
+		}
+		.button-wrap >div{
+			padding-right: 24px;
+			padding-left: 5px;
+		}
+	}
+	// calendar
+	.rbc-day-bg + .rbc-day-bg{
+		border-left: 0;
+		border-right: 1px solid $border-color;
+	}
+	.rbc-btn-group > button:first-child:not(:last-child){
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	.rbc-btn-group > button:last-child:not(:first-child){
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.blog-grid-item{
+		.icon-wrap{
+			right: auto;
+			left: 16px;
+		}
+	}
+	.blog-detail-wrap{
+		.author-content{
+			padding-left: 24px;
+			padding-right: 24px;
+		}
+		.edit-btn{
+			margin-right: 0;
+			margin-left: 20px;
+		}
+		.social-wrap{
+			text-align: left;
+		}
+	}
+	.ui-app-wrapper{
+		.menu-icon{
+			margin-left: 16px;
+			margin-right: 0;
+		}
+		.search-icon-wrap{
+			right:auto;
+			left:0;
+		}
+		.MuiButton-startIcon {
+			margin-left: 8px;
+			margin-right: -4px;
+		}
+		.MuiButton-endIcon {
+			margin-left: -4px;
+			margin-right: 8px;
+	  }
+	}
+	.ui-chip-wrapper{
+		.MuiChip-root .MuiChip-avatar,.MuiChip-icon{
+			margin-left: -6px;
+    		margin-right: 5px;
+		}
+		.MuiChip-deleteIcon{
+			margin: 0 -6px 0 5px;
+		}
+	}
+	.align-list-wrap .MuiListItemText-root{
+		text-align: right;
+	}
+	.switch-list-wrap,.checkbox-list-wrap{
+		.MuiListItem-secondaryAction {
+			padding-right: 16px;
+			padding-left: 48px;
+			text-align: left;
+		}
+		.MuiListItemSecondaryAction-root {
+			right: auto;
+			left:16px;
+	  	}
+	  	.MuiListItemText-root{
+		  text-align: right;
+	   }
+	}
+	// mega-menu
+	.mega-menu-ul {
+		.MuiListItem-root{
+			text-align: right;
+		}
+	}
+	.menu-wrap{
+		.list-item{
+			padding-left: 9px !important;
+			.MuiListItemText-root{
+				text-align: right;
+				padding-left: 0 !important;
+				padding-right: 12px;
+			}
+			.desc-wrap{
+				text-align:right;
+			}
+		}
+		.list-link .icon{
+			margin-right: 0;
+			margin-left: 8px;
+		}
+		.sub-menu{
+			li .list-item.MuiListItem-root{
+				padding: 2px 36px 2px 10px !important;
+			}
+			li.MuiListItem-root a{
+				padding: 7px 36px 7px 10px !important;
+			}
+			.sub-menu{
+				.list-item.MuiListItem-root{
+					padding: 0 !important;
+					.link{
+						padding: 4px 56px 4px 16px !important;
+						.icon{
+							margin-right: 0;
+							margin-left: 8px;
+						}
+					}
+				}
+			}
+			
+		}
+	}
+	.sidebar-footer .icon{
+		margin-right: 0;
+		margin-left: 8px;
+	}
+	.custom-btn{
+		left:-1px;
+		right:auto;
+	}
+	.cart-list-wrap{
+		.list-item.MuiListItem-secondaryAction {
+			padding-right: 16px;
+			padding-left:48px;
+		}
+		.MuiListItemAvatar-root,.MuiListItemText-root{
+			text-align: right;
+		}
+		.MuiListItemText-root{
+			padding-left: 0;
+			padding-right: 5px;
+		}
+		.MuiListItemSecondaryAction-root{
+			right: auto;
+			left: 16px;
+		}
+	}
+	.sidebar-notifi-list{
+		padding-right: 0;
+	}
+	.weather-widget >.MuiBox-root{
+		margin-right: 0;
+		margin-left: 16px;
+	}
+	.stock-widget-wrap{
+		text-align: right;
+	}
+	.notifiaction-toolbar .MuiTabs-indicator{
+		display: none;
+	}
+	.sidebar-notifi-list--item .notifi-list--header p{
+		margin-left: 0 !important;
+		margin-right: 0.5rem;
+	}
+	.hk-mail-wrapper{
+		main,.border-left{
+			border-left: 0;
+			border-right: 1px solid $border-color;
+		}
+		.compose-btn .MuiButton-startIcon{
+			margin-left: 8px;
+			margin-right: -4px;
+		}
+		.author-thumb{
+			padding-right: 0;
+			padding-left: 24px;
+		}
+		.reply-btn{
+			margin-right: 0;
+			margin-left: 16px;
+		}
+		.email-list-wrap{
+			.list-desc >div{
+				text-align: right;
+			}
+		}
+		.list-item{
+			.MuiListItemText-root{
+				text-align: right;
+			}
+		}
+		.list-detail .MuiBox-root{
+			text-align: left;
+			&:last-child{
+				padding-right: 24px;
+				padding-left: 0;
+			}
+		}
+	}
+	// text-field
+	.MuiInputLabel-formControl{
+		right:0;
+	}
+	.MuiInputLabel-outlined{
+		right: 30px;
+	}
+	.MuiInputLabel-shrink{
+		transform-origin: top right;
+	}
+	.MuiInputBase-input{
+		text-align: right;
+	}
+	.dialog-footer .primary-bg-btn{
+		margin-left: 0;
+		margin-right: 8px;
+	}
+	.Mui-focused legend{
+		text-align: right !important;
+		span{
+			padding-left:20px
+		}
+	}
+	.pricing-update {
+		overflow-y: hidden;
+		.MuiStepLabel-iconContainer{
+			padding-right: 0;
+			padding-left: 8px;
+		}
+	}
+	.profile-gallery{
+		.MuiGridListTile-imgFullHeight{
+			left:130%;
+		}
+	}
+	.mod-profile-wrap{
+		.user-detail--btn{
+			right: auto;
+			left: 20px;
+		}
+	}
+	.mod-profile-meta ul {
+		padding-right:0;
+		li {
+			margin-right: 0;
+			margin-left: 1rem;
+			i{
+				margin-right: 0;
+				margin-left: 0.3rem;
+			}
+		}
+	}
+	.mod-profile-meta--followers ul li h6{
+		margin-left: 0.5rem;
+		margin-right: 0;
+	}
+	.user-activity{
+		.mod-profile-meta ul {
+			padding-right: 0;
+	  }
+	}
+	.payment-int-tab{
+		.MuiTextField-root{
+			legend {
+				text-align: right;
+				padding-left: 6px;
+				margin-right: 8px;
+			}
+		}
+	}
+	.title-banner{
+		.title-content{
+			text-align: right;
+		}
+		.title-image, .btn-wrap{
+			text-align: left;
+		}
+		.btn-wrap i{
+			padding-left: 0 !important;
+			padding-right: 10px;
+		}
+	}
+	.icon-menu-wrap .main-menu{
+		left:auto;
+		right:0;
+	}
+	.icon-menu-wrap .main-menu .sub-menu-wrap{
+		left: auto;
+		top: -10px;
+		right: 75px;
+	}
+	.hk-main{
+		margin-left:0;
+	}
+	.notifi-list--content p{
+		text-align:right;
+	}
+	.ag-main-filter{
+		.filter-text-input{
+			margin-right: 0;
+			margin-left: 16px;
+		}
+	}
+	.ag-header-viewport .ag-header-container{
+		transform: translateX(0px) !important;
+	}
+	.test-header .MuiSelect-select.MuiSelect-select{
+		height:32px;
+	}
+	.ag-selection-checkbox{
+		padding-left:1rem;
+	}
+	// task List
+	.gu-transit {
+		text-align:right;
+		.task-action{
+			display:none !important;
+		}
+	}
+	.rtl-sidebar{
+		width:0;
+	}
+	.hk-header .rtl-header{
+		.MuiToolbar-root{
+			padding-right: 70px;
+		}
+		margin-right:0 !important;
+		.hamburger-icon {
+			margin-right: -65px;
+			margin-left: 16px;
+		}
+	}
+	.login-wrapper{
+		.MuiInputLabel-formControl{
+			text-align: right;
+		}
+	}
+	.full-page-menu-wrap{
+		width: 100%;
+	}
+}
+@media (max-width: 1280px){
+	.rtl-layout * {
+		.hk-header header{
+			left:0;
+			.ham-menu{
+				margin-right:0;
+			}
+		}
+		.hk-chat-wrap .chat-menu-icon{
+			margin-left: 0 !important;
+			margin-right: 18px !important;
+		}
+		.MuiPaper-root.chat-drawer{
+			left: auto;
+			right: 0;
+		}
+  	}
+}
+@media (max-width: 959px){
+	.rtl-layout * {
+		.preview-content span,.preview-content span:last-child {
+			width: 50%;
+		}
+		.preview-content span{
+			padding-left: 20px;
+			text-align: left;
+		}
+		.preview-content span:last-child {
+			padding-right: 20px;
+			text-align: right;
+		}
+		.user-activity .content-wrap{
+			padding-left: 0;
+			padding-right: 16px;
+		}
+		.pricing-wrapper{
+			.have-plan{
+				margin-left:0;
+				margin-right: auto;
+			}
+		}
+		.shop-list-wrapper .shop-items {
+			margin-right: 0;
+		}
+		.shop-listing{
+			.shop-sidebar {
+				left:auto;
+				right:0;
+				transform: translate(100%);           
+			}
+			.filter-open{
+				transform: translate(0);      
+			}
+		}
+		.hk-mail-wrapper{
+			.email-list-wrap li{
+				padding-right: 0;
+				padding-left: 16px;
+			}
+			.search-box{
+				padding: 5px 48px 12px 16px;
+			}
+			.content-desc{
+				text-align: right;
+			}
+			.email-btn{
+				margin-right: 7px ;
+				margin-left: 0 !important;
+			}
+		}
+		.blog-detail-wrap .social-wrap {
+			text-align: right;
+		}
+		.session-wrapper-v2 .login-form .border-right{
+			border-left:1px solid rgba(0, 0, 0, 0.1);
+			border-right:0;
+			padding-left: 8px;
+			padding-right: 0;
+		}
+	}
+}
+@media (max-width: 767px){
+	.rtl-layout * {
+		.MuiTable-root .MuiTableCell-footer {
+			float: right !important;
+	  	}
+	}
+}
+@media (max-width: 599px){
+	.rtl-layout * {
+		.main-invoice .text-right{
+			text-align: right;
+		}
+		.hk-mail-wrapper .list-detail{
+			width: 85px;
+		}
+		.title-contact-block .MuiBox-root,.title-banner .btn-wrap{
+			text-align: right;
+		}
+	}
+}
+@media (max-width: 500px){
+	.rtl-layout * {
+		.quick-links li:nth-child(2n) {
+			padding-right: 0;
+		}
+		.custom-table-wrap,.search-table-wrap{
+			.MuiToolbar-root {
+				display: block;
+				min-height: 72px;
+				padding-top: 12px;
+		  	}
+		  	.MuiFormControl-root {
+				padding-right: 0;
+	  		}
+		}
+		.simple-table-widget,.search-table-wrap{			
+			.MuiToolbar-root {
+				.MuiFormControl-root{
+					width:100% !important;
+					margin-bottom: 10px;
+				}
+				div:nth-child(4){
+					text-align: right !important;
+				}
+				.MuiInputAdornment-root{
+					margin-right: 0;
+					 margin-left: 8px;
+				}
+				.MuiInputAdornment-root.MuiInputAdornment-positionEnd{
+					margin-left: 0;
+					margin-right: 8px;
+				}
+			}
+			.MuiTableCell-body span{
+				padding-right: 0;
+				padding-left: 5px;
+			}
+		}
+  	}
+}
+// Icon layout 
+.rtl-layout.icon-layout-wrap {
+	.icon-header-layout .hk-header header{
+		margin-right:0px !important;
+	}
+	.hk-header .search-bar-wrap {
+		left:0;
+		right: 80px;
+  	}
+}
+// Horizontal layout 
+
+.rtl-layout.horizontal-layout {
+	.hk-header header {
+		margin-Right: 0 !important;
+		padding-left: 16px;
+		.MuiToolbar-gutters{
+			padding-right: 0px;
+			padding-left: 16x;
+		}
+	}
+	.hk-main {
+		margin-left: 0;
+	}
+	.icon-sidebar{
+		display:none,
+	}
+	.logo-wrap{
+		margin-right: 0;
+		margin-left: 16px;
+	}
+	.horizontal-menu > ul > .nav-item > span i,.horizontal-menu > ul .sub-menu li a i {
+		margin-left: .5rem;
+		margin-right: 0;
+	}
+	.horizontal-menu > ul .sub-menu{
+		left: auto;
+		right: 0;
+	}
+	.horizontal-menu > ul .menu-item-has-child > a::after, .horizontal-menu > ul .menu-item-has-child > span::after{
+		right: auto;
+		left: 0;
+	}
+	.horizontal-menu > ul{
+		.sub-menu .menu-item-has-child > a::after, .sub-menu .menu-item-has-child > span::after{
+			right: auto;
+			left: 10px;
+		}
+		.sub-menu li .sub-menu {
+			right:100% !important;
+	  }
+	}
+}

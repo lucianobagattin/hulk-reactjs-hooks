@@ -1,0 +1,36 @@
+{
+	"data": [
+		{
+			"name": "Archana Sharma",
+			"dept": "Frontend & Backend Web Development",
+			"email": "archana@theironnetwork.org",
+			"work_experience": "3 years",
+			"address": "#1260, Phase 5 MohalI Punjab",
+			"qualification": "B.Tech Graduate"
+		},
+		{
+			"name": "Shweta Kumari",
+			"dept": "Frontend Development",
+			"email": "shweta@theironnetwork.org",
+			"work_experience": "2 years",
+			"address": "#5353, Phase 7 Mohali Punjab",
+			"qualification": "B.Tech Graduate"
+		},
+		{
+			"name": "Nikita Garg",
+			"dept": "Frontend Development",
+			"email": "nikita@theironnetwork.org",
+			"work_experience": "2 years",
+			"address": "#5353, Phase 7 Mohali Punjab",
+			"qualification": "B.Tech Graduate"
+		},
+		{
+			"name": "Shashi Verma",
+			"dept": "Mobile Development",
+			"email": "shashi@theironnetwork.org",
+			"work_experience": "2 years",
+			"address": "#5353, Phase 7 Mohali Punjab",
+			"qualification": "B.Tech Graduate"
+		}
+	]
+}

@@ -1,0 +1,180 @@
+{
+	"data":[
+		{
+			"name": "Dashboard1",
+			"url": "/app/dashboard/dashboard1"
+		},
+		{
+			"name": "Dashboard2",
+			"url": "/app/dashboard/dashboard2"
+		},
+		{
+			"name": "Dashboard3",
+			"url": "/app/dashboard/dashboard3"
+		},
+		{
+			"name": "Standard Profile",
+			"url": "/app/pages/profile/standard"
+		},
+		{
+			"name": "Modern Profile",
+			"url": "/app/pages/profile/modern"
+		},
+		{
+			"name": "Horizontal Stepper",
+			"url": "/app/pages/stepper/horizontal-stepper"
+		},
+		{
+			"name": "Vertical Stepper",
+			"url": "/app/pages/stepper/vertical-stepper"
+		},
+		{
+			"name": "Pricing Style1",
+			"url": "/app/pages/pricing/style1"
+		},
+		{
+			"name": "Pricing Style2",
+			"url": "/app/pages/pricing/style2"
+		},
+		{
+			"name": "Pricing Upgrade",
+			"url": "/app/pages/pricing/pricing-upgrade"
+		},
+		{
+			"name": "Vertical Timeline",
+			"url": "/app/pages/timeline/vertical-timeline"
+		},
+		{
+			"name": "Horizontal Timeline",
+			"url": "/app/pages/timeline/horizontal-timeline"
+		},
+		{
+			"name": "Contact Grid",
+			"url": "/app/pages/contact-grid"
+		},
+		{
+			"name": "FAQ",
+			"url": "/app/pages/faq"
+		},
+		{
+			"name": "Signature Pad",
+			"url": "/app/pages/signature-pad"
+		},
+		{
+			"name": "Payment",
+			"url": "/app/pages/payment"
+		},
+		{
+			"name": "Shop",
+			"url": "/app/ecommerce/shop"
+		},
+		{
+			"name": "Product Detail",
+			"url": "/app/ecommerce/product-detail/7"
+		},
+		{
+			"name": "Cart",
+			"url": "/app/ecommerce/cart"
+		},
+		{
+			"name": "Checkout",
+			"url": "/app/ecommerce/checkout"
+		},
+		{
+			"name": "Invoice",
+			"url": "/app/ecommerce/invoice"
+		},
+		{
+			"name": "Sign In(Ecommerce)",
+			"url": "/app/ecommerce/signin"
+		},
+		{
+			"name": "Chat",
+			"url": "/app/chat"
+		},
+		{
+			"name": "Email",
+			"url": "/app/email"
+		},
+		{
+			"name": "Calendar",
+			"url": "/app/calendar"
+		},
+		{
+			"name": "Blog Grid",
+			"url": "/app/blog/blog-grid"
+		},
+		{
+			"name": "Blog Detail",
+			"url": "/app/blog/blog-detail/1"
+		},
+		{
+			"name": "Basic Table",
+			"url": "/app/tables/basic-table"
+		},
+		{
+			"name": "Search Table",
+			"url": "/app/tables/search-table"
+		},
+		{
+			"name": "AG-Grid",
+			"url": "/app/tables/ag-grid"
+		},
+		{
+			"name": "Custom Table",
+			"url": "/app/tables/custom-table"
+		},
+		{
+			"name": "AppBar",
+			"url": "/app/uicomponents/appbar"
+		},
+		{
+			"name": "Avatars",
+			"url": "/app/uicomponents/avatars"
+		},
+		{
+			"name": "Buttons",
+			"url": "/app/uicomponents/buttons"
+		},
+		{
+			"name": "Bottom Navigations",
+			"url": "/app/uicomponents/bottom-navigations"
+		},
+		{
+			"name": "Chip",
+			"url": "/app/uicomponents/chip"
+		},
+		{
+			"name": "Lists",
+			"url": "/app/uicomponents/lists"
+		},
+		{
+			"name": "Modals",
+			"url": "/app/uicomponents/modals"
+		},
+		{
+			"name": "SignIn",
+			"url": "/signin"
+		},
+		{
+			"name": "SignUp",
+			"url": "/signup"
+		},
+		{
+			"name": "Forgot Password",
+			"url": "/forgot-password"
+		},
+		{
+			"name": "404",
+			"url": "/error/404"
+		},
+		{
+			"name": "500",
+			"url": "/error/500"
+		},
+		{
+			"name": "User Settings",
+			"url": "/app/user-settings"
+		}
+	]
+}

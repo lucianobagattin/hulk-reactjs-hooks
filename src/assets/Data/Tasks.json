@@ -1,0 +1,92 @@
+[
+   {
+		"id": 1,
+		"taskName": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"deadline": "2020-02-15",
+      "assignedTo": "Luke Jobs",
+      "completed":true,
+		"deadlineColor":"primary.main",
+		"avatarBG":"bg-info"
+   },
+   {
+		"id": 2,
+		"taskName": "Sed facilisis, justo sit amet luctus placerat, nulla ipsum placerat mi",
+      "deadline": "2020-02-13",
+      "completed": true,
+		"assignedTo": "Luke Jobs",
+		"deadlineColor":"secondary.main",
+		"avatarBG":"bg-success"
+   },
+   {
+		"id": 3,
+		"taskName": "Nec blandit risus elit non lectus. Proin non cursus nisl",
+      "deadline": "2020-02-11",
+      "completed": false,
+		"assignedTo": "Luke Jobs",
+		"deadlineColor":"success.main",
+		"avatarBG":"bg-primary"
+   },
+   {
+		"id": 4,
+		"taskName": "Aenean risus nisi, dictum non nibh et, suscipit maximus justo",
+      "deadline": "2020-02-10",
+      "completed": false,
+		"assignedTo": "Luke Jobs",
+		"deadlineColor":"primary.main",
+		"avatarBG":"bg-info"
+   },
+   {
+		"id": 5,
+		"taskName": "Aenean sagittis blandit quam vitae rutrum.",
+		"deadline": "2020-02-17",
+      "assignedTo": "Luke Jobs",
+      "completed": false,
+		"deadlineColor":"secondary.main",
+		"avatarBG":"bg-success"
+   },
+   {
+		"id": 6,
+		"taskName": "Duis sed hendrerit sapien, iaculis tempor urna.",
+		"deadline": "2020-02-18",
+      "assignedTo": "Luke Jobs",
+      "completed": false,
+		"deadlineColor":"success.main",
+		"avatarBG":"bg-primary"
+   },
+   {
+		"id": 7,
+		"taskName": "Mauris at posuere metus, quis ultricies nibh",
+		"deadline": "2020-02-19",
+      "assignedTo": "Luke Jobs",
+      "completed": false,
+		"deadlineColor":"primary.main",
+		"avatarBG":"bg-info"
+   },
+   {
+		"id": 8,
+		"taskName": "Maecenas quis libero et elit mattis sodales.",
+		"deadline": "2020-02-22",
+      "assignedTo": "Luke Jobs",
+      "completed": false,
+		"deadlineColor":"secondary.main",
+		"avatarBG":"bg-success"
+	},
+	{
+		"id": 9,
+		"taskName": "Nec blandit risus elit non lectus. Proin non cursus nisl",
+      "deadline": "2020-02-11",
+      "completed": false,
+		"assignedTo": "Luke Jobs",
+		"deadlineColor":"success.main",
+		"avatarBG":"bg-primary"
+   },
+   {
+		"id": 10,
+		"taskName": "Aenean risus nisi, dictum non nibh et, suscipit maximus justo",
+      "deadline": "2020-02-10",
+      "completed": false,
+		"assignedTo": "Luke Jobs",
+		"deadlineColor":"primary.main",
+		"avatarBG":"bg-info"
+   }
+]
